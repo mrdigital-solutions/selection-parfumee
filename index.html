@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f4ef">
+<meta name="description" content="Parfums 100 % authentiques. Envoie ta sélection sur WhatsApp ; la commande est confirmée après vérification du stock.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mrdigital-solutions.github.io/selection-parfumee/">
+<meta property="og:title" content="Parfums disponibles">
+<meta property="og:description" content="Parfums 100 % authentiques. Envoie ta sélection sur WhatsApp ; la commande est confirmée après vérification du stock.">
+<meta property="og:image" content="https://mrdigital-solutions.github.io/selection-parfumee/catalogue-preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sélection de flacons de parfum dans un décor élégant">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Parfums disponibles">
+<meta name="twitter:description" content="Parfums 100 % authentiques. Envoie ta sélection sur WhatsApp ; la commande est confirmée après vérification du stock.">
+<meta name="twitter:image" content="https://mrdigital-solutions.github.io/selection-parfumee/catalogue-preview.jpg">
+<title>Parfums disponibles</title>
+<style>
+:root{--ink:#24221f;--muted:#77736d;--paper:#f7f4ef;--card:#fffdfa;--line:#e7e0d6;--gold:#9a784e;--green:#345b49;--red:#a34b43;--shadow:0 18px 55px #2a241710}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:54px 24px 34px;text-align:center;background:radial-gradient(ellipse at top,#fffdf9 0,#f7f4ef 70%)}.eyebrow{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700}h1{font-family:Georgia,serif;font-size:clamp(34px,6vw,58px);font-weight:400;letter-spacing:-.035em;margin:12px 0 6px}.sub{color:var(--muted);margin:0}.rule{width:62px;height:1px;background:var(--gold);margin:24px auto 0}
+main{max-width:1100px;margin:0 auto;padding:22px 22px 64px}.toolbar{display:flex;gap:12px;align-items:center;margin:0 0 22px}.search{flex:1;min-width:160px;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:13px 16px;font:inherit;outline:none}.search:focus{border-color:var(--gold);box-shadow:0 0 0 3px #9a784e18}.select{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:13px 14px;font:inherit;color:var(--ink)}.count{color:var(--muted);font-size:13px;margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:19px 20px;box-shadow:var(--shadow);min-height:150px;display:flex;flex-direction:column}.brand{color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-size:10px;font-weight:700}.name{font-family:Georgia,serif;font-size:21px;line-height:1.2;margin:7px 0 5px}.size{font-size:12px;color:var(--muted);line-height:1.4;margin-top:2px}.inspi{font-size:12px;color:#6e6252;background:#f8f4ec;border:1px solid #ece3d5;border-radius:8px;padding:6px 9px;margin-top:12px;line-height:1.35}.inspi strong{color:var(--gold);font-weight:650}.bottom{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:18px}.price{font-size:20px;font-weight:650}.badge{font-size:11px;font-weight:650;color:var(--green);background:#e9f0eb;padding:5px 9px;border-radius:99px}.badge.out{color:var(--red);background:#f7e9e6}.empty{grid-column:1/-1;background:var(--card);border:1px dashed var(--line);border-radius:16px;text-align:center;padding:44px 22px;color:var(--muted)}.empty strong{display:block;font-family:Georgia,serif;font-size:22px;color:var(--ink);font-weight:400;margin-bottom:5px}.error{color:var(--red)}.header-badges{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0 0;flex-wrap:wrap}.authenticity{display:inline-block;margin:0;padding:6px 14px;border:1px solid #e9dfd0;border-radius:99px;background:#fbf8f3;color:#8a6942;font-size:13px;font-weight:700;letter-spacing:.01em}.last-update{display:inline-flex;align-items:center;gap:5px;padding:6px 14px;border:1px solid #dcd5ca;border-radius:99px;background:#ffffff;color:#5a544b;font-size:13px;font-weight:600;letter-spacing:.01em;box-shadow:0 2px 6px #24221f0a}footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 30px}
+.visual{height:150px;border-radius:11px;background:linear-gradient(145deg,#f1ede6,#fbf9f4);display:grid;place-items:center;margin-bottom:15px;overflow:hidden}.visual img{height:100%;width:100%;object-fit:contain;padding:9px}.generic-bottle{position:relative;width:58px;height:91px;border:1px solid #c8bca9;border-radius:12px 12px 17px 17px;background:linear-gradient(90deg,#d8c49b,#f5ecd8 44%,#c9ae7c);box-shadow:0 8px 18px #40321c22}.generic-bottle:before{content:"";position:absolute;width:25px;height:15px;left:16px;top:-15px;background:#b29a6b;border-radius:4px 4px 1px 1px}.generic-bottle:after{content:"";position:absolute;left:8px;right:8px;top:35px;height:24px;background:#fffdf8d9;border:1px solid #e4ddcf}.tester-pack{position:absolute;right:8px;top:8px;background:#fffdf8;border:1px solid #ded8ce;border-radius:99px;padding:4px 8px;color:#4e473e;font:700 9px/1.2 Arial,sans-serif;letter-spacing:.08em;box-shadow:0 2px 8px #24221f22}
+.visual{position:relative}.visual:has(.generic-bottle):after{content:"Photo à compléter";position:absolute;bottom:3px;color:var(--muted);font-size:9px}
+
+.visual{height:250px;min-height:250px;flex:0 0 250px}.visual img{height:100%;width:100%;object-fit:contain;object-position:center;padding:12px;display:block}
+
+.order-add.out{background:#f3eeea;color:#9b9285;border-color:#ded7cd;cursor:not-allowed}.order-add{width:100%;margin-top:15px;border:1px solid var(--gold);background:#fffaf2;color:var(--ink);border-radius:10px;padding:11px 12px;font:inherit;font-weight:650;font-size:13px;line-height:1.2;cursor:pointer;transition:background .15s}.order-add:hover{background:#f1e7d7}.order-qty{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:15px}.order-qty button,.cart-row button{border:1px solid var(--line);background:#fff;border-radius:8px;width:36px;height:36px;font-size:20px;cursor:pointer;color:var(--ink)}.order-qty span{font-weight:700}.cart-dock{position:fixed;z-index:20;right:22px;bottom:20px;border:0;border-radius:999px;padding:14px 20px;background:var(--ink);color:#fff;font:inherit;font-weight:650;font-size:14px;line-height:1.2;box-shadow:0 10px 30px #24221f35;cursor:pointer}.cart-dock[hidden]{display:none}.order-overlay{position:fixed;z-index:30;inset:0;background:#1d1a16a8;display:grid;place-items:center;padding:18px}.order-overlay[hidden]{display:none}.order-sheet{width:min(100%,620px);max-height:min(88vh,800px);overflow:auto;background:var(--card);border-radius:18px;padding:24px;box-shadow:var(--shadow)}.order-head{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}.order-head h2{font:400 30px/1.1 Georgia,serif;margin:0 0 7px}.order-head p{color:var(--muted);margin:0 0 18px}.order-close{width:38px;height:38px;border:1px solid var(--line);background:white;border-radius:50%;font-size:22px;cursor:pointer}.cart-list{display:grid;gap:10px}.cart-total{margin-top:14px;padding:14px;border-radius:10px;background:#f1ede6;font-weight:700}.cart-dock #cartDockTotal{font-weight:500;font-size:12px;opacity:.88;margin-left:4px}.cart-row{display:grid;grid-template-columns:1fr auto;gap:5px 12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:12px}.cart-row strong{font-size:14px}.cart-row small{color:var(--muted)}.cart-row-controls{display:flex;align-items:center;gap:8px}.cart-row-controls span{min-width:18px;text-align:center;font-weight:700}.order-fields{display:grid;gap:10px;margin:18px 0}.order-fields input,.order-fields textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font:inherit;background:white}.order-fields textarea{min-height:78px;resize:vertical}.whatsapp-send{width:100%;border:0;border-radius:10px;padding:14px;background:#27744a;color:#fff;font:inherit;font-weight:700;font-size:15px;line-height:1.2;cursor:pointer}.order-note{font-size:12px;color:var(--muted);text-align:center;margin:10px 0 0}
+@media(max-width:560px){.cart-dock{right:12px;bottom:12px}.order-sheet{padding:18px}.order-head h2{font-size:26px}}
+
+@media(max-width:560px){header{padding-top:38px}.toolbar{flex-wrap:wrap}.search{flex-basis:100%}.select{flex:1}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{padding:13px 12px}.visual{height:155px;min-height:155px;flex-basis:155px;margin-bottom:11px}.name{font-size:17px;line-height:1.17}.brand{font-size:9px}.bottom{flex-direction:column;align-items:flex-start;gap:7px;padding-top:12px}.price{font-size:16px;line-height:1.2}.badge{font-size:10px;padding:4px 7px}.order-add{font-size:12px;padding:9px 8px}.order-qty{gap:6px}.order-qty span{font-size:12px}}
+ .classic-filter{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:-3px 0 17px;padding:14px 16px;background:#fffdfa;border:1px solid var(--line);border-radius:12px}.classic-filter[hidden]{display:none}.classic-filter>span{font-size:13px;font-weight:650;color:var(--muted)}.classic-category-nav{display:flex;gap:7px;flex-wrap:wrap}.classic-category-nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 12px;font:inherit;font-size:13px;cursor:pointer}.classic-category-nav button[aria-pressed="true"]{background:#eee5d8;border-color:#d9c5a7;color:#76552f}.brand-filter{display:flex;align-items:center;gap:12px;margin:-3px 0 17px;padding:14px 16px;background:#fffdfa;border:1px solid var(--line);border-radius:12px}.brand-filter[hidden]{display:none}.brand-filter label{font-size:13px;font-weight:650;color:var(--muted)}.brand-filter .select{min-width:220px}.collection-nav{display:flex;gap:9px;overflow-x:auto;padding:0 0 14px;margin:0 0 8px;scrollbar-width:thin}.collection-nav button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:10px 15px;font:inherit;font-weight:650;cursor:pointer}.collection-nav button[aria-pressed="true"]{background:#eee5d8;border-color:#d9c5a7;color:#76552f}.group-heading{grid-column:1/-1;margin:22px 0 0;padding:0 0 8px;border-bottom:1px solid var(--line);font:400 25px/1.2 Georgia,serif;color:var(--ink)}.group-heading:first-child{margin-top:0}@media(max-width:560px){.collection-nav{margin-right:-22px;padding-right:22px}.collection-nav button{font-size:13px;padding:9px 12px}}.collection-nav{justify-content:center;flex-wrap:wrap;overflow:visible;margin:0 auto 12px;padding:0 0 14px}.collection-nav button{font-size:14px;padding:11px 18px;letter-spacing:.01em}.classic-filter{flex-direction:column;justify-content:center;text-align:center;gap:10px;padding:16px}.classic-category-nav{justify-content:center}.brand-filter{flex-direction:column;justify-content:center;text-align:center;gap:9px;padding:16px}.brand-filter .select{width:min(100%,320px)}.toolbar{justify-content:center}.toolbar .select{min-width:220px}@media(max-width:560px){.collection-nav{justify-content:center;margin:0 auto 12px;padding:0 0 14px}.collection-nav button{font-size:13px;padding:9px 12px}.toolbar .select{flex:0 1 260px}}
+/* ================= STYLES LUXE SANS ÉMOTICÔNES ================= */
+.header-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0 0;
+  flex-wrap: wrap;
+}
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .01em;
+  transition: all .2s ease;
+  line-height: 1;
+}
+
+/* Badge 1: Authenticité */
+.badge-authenticity {
+  border: 1px solid #dfcfbc;
+  background: #fcf9f4;
+  color: #7b5930;
+  box-shadow: 0 2px 6px rgba(36, 34, 31, 0.04);
+}
+.badge-authenticity svg {
+  color: #9a784e;
+  flex-shrink: 0;
+}
+
+/* Badge 2: Date de mise à jour */
+.badge-update {
+  border: 1px solid #dcd5ca;
+  background: #ffffff;
+  color: #554f46;
+  box-shadow: 0 2px 6px rgba(36, 34, 31, 0.04);
+}
+.badge-update svg {
+  color: #8c8376;
+  flex-shrink: 0;
+}
+
+/* Badge 3: Envoi cliquable */
+.badge-shipping-btn {
+  border: 1px solid #c8a873;
+  background: linear-gradient(135deg, #ffffff 0%, #fbf6ee 100%);
+  color: #6d4b20;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 650;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(154, 120, 78, 0.16);
+}
+.badge-shipping-btn:hover {
+  background: #f7ede0;
+  border-color: #b58b4c;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(154, 120, 78, 0.25);
+}
+.badge-shipping-btn svg.icon-box {
+  color: #9a784e;
+  flex-shrink: 0;
+}
+.badge-shipping-btn svg.icon-arrow {
+  color: #9a784e;
+  margin-left: 3px;
+  transition: transform .15s ease;
+}
+.badge-shipping-btn:hover svg.icon-arrow {
+  transform: translateX(2px);
+}
+
+/* Modale Expédition épurée */
+.shipping-modal-sheet {
+  max-width: 560px;
+  background: #fffdfa;
+}
+.shipping-details-grid {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 22px;
+}
+.shipping-feature-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid #e8dfd3;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+.shipping-feature-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #fbf7f1;
+  border: 1px solid #eadfcfa8;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.shipping-feature-icon svg {
+  color: #9a784e;
+}
+.shipping-feature-card strong {
+  display: block;
+  font-size: 14.5px;
+  color: #24221f;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+.shipping-feature-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #635d55;
+}
+.shipping-modal-footer button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 16px;
+  background: #24221f;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background .15s;
+}
+.shipping-modal-footer button:hover {
+  background: #3d372e;
+}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">Sélection parfumée</div><h1>Parfums disponibles</h1><p class="sub">Envoie ta sélection sur WhatsApp : je vérifie le stock et te confirme ta commande.</p>
+<div class="header-badges">
+  <!-- Badge 1: Sceau Authenticité -->
+  <span class="badge-pill badge-authenticity" title="Garantie parfums 100% authentiques">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+      <polyline points="9 12 11 14 15 10"/>
+    </svg>
+    <span>Parfums 100 % authentiques</span>
+  </span>
+
+  <!-- Badge 3: Envoi cliquable avec icône colis vectorielle -->
+  <button type="button" class="badge-pill badge-shipping-btn" id="btnOpenShippingBadge" title="Cliquer pour voir les détails d'envoi et de suivi">
+    <svg class="icon-box" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+      <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+      <line x1="12" y1="22.08" x2="12" y2="12"/>
+    </svg>
+    <span>Envoi France &amp; Europe</span>
+    <svg class="icon-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="9 18 15 12 9 6"/>
+    </svg>
+  </button>
+</div>
+<div class="rule"></div>
+</header>
+
+<main><nav id="collectionNav" class="collection-nav" aria-label="Rayons du catalogue"><button type="button" data-collection="all" aria-pressed="true">Tout voir</button><button type="button" data-collection="classics" aria-pressed="false">Parfums classiques</button><button type="button" data-collection="rp" aria-pressed="false">Parfums RP</button><button type="button" data-collection="dubai" aria-pressed="false">Parfums de Dubaï</button><button type="button" data-collection="cosmetics" aria-pressed="false">Cosmétiques</button><button type="button" data-collection="haircare" aria-pressed="false">Soins capillaires</button></nav><div id="classicFilterWrap" class="classic-filter" hidden><span>Parfumerie classique</span><div id="classicCategoryNav" class="classic-category-nav" aria-label="Catégories de parfums classiques"><button type="button" data-classic-category="all" aria-pressed="true">Tous</button><button type="button" data-classic-category="Homme" aria-pressed="false">Homme</button><button type="button" data-classic-category="Femme" aria-pressed="false">Femme</button><button type="button" data-classic-category="Haute parfumerie" aria-pressed="false">Haute parfumerie</button><button type="button" data-classic-category="Autres" aria-pressed="false">Autres</button></div></div><div id="brandFilterWrap" class="brand-filter" hidden><label for="dubaiBrand">Choisir une marque</label><select id="dubaiBrand" class="select"><option value="all">Toutes les marques</option></select></div><div class="toolbar"><input id="search" class="search" type="search" placeholder="Rechercher un parfum ou une marque…" aria-label="Rechercher"><select id="availability" class="select" aria-label="Disponibilité"><option value="all">Toutes disponibilités</option><option value="available">Disponibles</option><option value="unavailable">En rupture</option></select></div><p id="count" class="count" aria-live="polite"></p><section id="grid" class="grid" aria-live="polite"></section></main>
+<footer>Disponibilités et prix susceptibles d’évoluer. Contacte-moi pour réserver.</footer>
+<button id="cartDock" class="cart-dock" type="button" hidden>Ma sélection <span id="cartCount">0</span><span id="cartDockTotal"></span></button>
+<div id="orderOverlay" class="order-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="orderTitle"><section class="order-sheet"><div class="order-head"><div><h2 id="orderTitle">Ma sélection</h2><p>Vérifie les parfums, les quantités et les demandes de prix avant d’envoyer.</p></div><button id="orderClose" class="order-close" type="button" aria-label="Fermer">×</button></div><div id="cartList" class="cart-list"></div><div id="cartTotal" class="cart-total"></div><div class="order-fields"><input id="customerName" type="text" autocomplete="name" placeholder="Ton nom (facultatif)"><textarea id="customerNote" placeholder="Une précision pour la commande (facultatif)"></textarea></div><button id="whatsappSend" class="whatsapp-send" type="button">Envoyer sur WhatsApp</button><p class="order-note">WhatsApp s’ouvrira avec ton message prêt à envoyer.</p></section></div>
+<script>
+// Source attendue : CSV publié en lecture seule, colonnes marque, parfum, contenance, prix, disponible.
+// Exemple : https://docs.google.com/spreadsheets/d/e/.../pub?output=csv
+const grid=document.querySelector('#grid'), search=document.querySelector('#search'), availability=document.querySelector('#availability'), count=document.querySelector('#count');const collectionNav=document.querySelector('#collectionNav'),classicCategoryNav=document.querySelector('#classicCategoryNav');let collection='all',classicCategory='all';const classicFilterWrap=document.querySelector('#classicFilterWrap'),brandFilterWrap=document.querySelector('#brandFilterWrap'),dubaiBrand=document.querySelector('#dubaiBrand');function catalogGroup(p){return p.category==='Parfums RP'?'Parfums RP':p.category==='Parfums de Dubaï (inspirations)'?'Parfums de Dubaï':p.category==='Cosmétiques'?'Cosmétiques':p.category==='Soins capillaires'?'Soins capillaires':'Parfums classiques'}function dubaiBrandName(p){if(p.brand&&p.brand.trim())return p.brand.trim();const n=(p.name||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();const known=[[ /^louis martin /,'Louis Martin'],[/^kenzie /,'Kenzie'],[/^french avenue /,'French Avenue'],[/^gulf orchid /,'Gulf Orchid'],[/^maison asrar /,'Maison Asrar'],[/^afnan /,'Afnan'],[/^al jefri /,'Al Jefri'],[/^rasasi /,'Rasasi'],[/^swiss arabian /,'Swiss Arabian'],[/^collection ayat /,'Collection AYAT'],[/^royal cotton collection /,'Mamlakat Al Oud'],[/\bmyperfumes\b/,'My Perfumes'],[/\bparis corner\b|^khair\b|^khayal\b|^minya\b|^ophidian\b|^qissa\b|^taskeen\b|^philos\b|^pear potion\b/,'Paris Corner'],[/^ameerat\b|^ameer al arab\b|^andaleeb flora\b/,'Asdaaf'],[/^ajwad\b|^al qiam gold\b|^angham\b|^asad\b|^a(w|)aan\b|^badee al oud\b|^eclair\b|^fakhar\b|^haya\b|^khaltaat al arabia\b|^khamrah\b|^lail maleki\b|^maahir\b|^mayar\b|^nebras\b|^qaa ed\b|^qaed al fursan\b|^raed luxe\b|^raghba\b|^shaheen\b|^sondos\b|^tharwah\b|^thouq\b|^washwashah\b|^yara\b/,'Lattafa'],[/^al dirgham\b|^al nashama\b|^bab al hamra\b|^bab al wardi\b|^bint hooran\b|^blue oud\b|^hayaati florence\b|^mousuf azure\b/,'Ard Al Zaafaran'],[/^delilah\b|^galactic men\b|^glacier\b|^i am ana abiyadh\b|^opulence leather\b|^reyna femme\b/,'Maison Alhambra']];for(const [re,label] of known)if(re.test(n))return label;return 'Autres marques'}function refreshDubaiBrands(){const selected=dubaiBrand.value||'all',brands=[...new Set(products.filter(p=>p.category==='Parfums de Dubaï (inspirations)').map(dubaiBrandName))].sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));dubaiBrand.innerHTML='<option value="all">Toutes les marques</option>';for(const brand of brands){const option=document.createElement('option');option.value=brand;option.textContent=brand;dubaiBrand.append(option)}dubaiBrand.value=brands.includes(selected)?selected:'all';brandFilterWrap.hidden=collection!=='dubai';classicFilterWrap.hidden=collection!=='classics'}function collectionMatches(p){return collection==='all'||(collection==='rp'&&p.category==='Parfums RP')||(collection==='dubai'&&p.category==='Parfums de Dubaï (inspirations)')||(collection==='cosmetics'&&p.category==='Cosmétiques')||(collection==='haircare'&&p.category==='Soins capillaires')||(collection==='classics'&&p.category!=='Parfums de Dubaï (inspirations)'&&p.category!=='Cosmétiques'&&p.category!=='Parfums RP'&&p.category!=='Soins capillaires')}function syncCollectionButtons(){collectionNav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.collection===collection)))}collectionNav.addEventListener('click',e=>{const b=e.target.closest('button[data-collection]');if(!b)return;collection=b.dataset.collection;classicCategory='all';dubaiBrand.value='all';syncCollectionButtons();syncClassicButtons();render()});function syncClassicButtons(){classicCategoryNav.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.classicCategory===classicCategory)))}classicCategoryNav.addEventListener('click',e=>{const b=e.target.closest('button[data-classic-category]');if(!b)return;classicCategory=b.dataset.classicCategory;syncClassicButtons();render()});
+const whatsappNumber='33668139751';const cart=new Map();const cartDock=document.querySelector('#cartDock'),cartCount=document.querySelector('#cartCount'),cartDockTotal=document.querySelector('#cartDockTotal'),orderOverlay=document.querySelector('#orderOverlay'),cartList=document.querySelector('#cartList'),cartTotal=document.querySelector('#cartTotal');
+function cartKey(p){return `${p.category}|${p.name}|${p.price}`}function hasFixedPrice(value){return /^\s*\d+(?:[,.]\d{1,2})?\s*€?\s*$/.test(String(value))}function numericPrice(value){return hasFixedPrice(value)?Number(String(value).replace(/\s|€/g,'').replace(',','.')):null}function currency(value){return new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(value)}function formatPrice(p){const n=numericPrice(p.price);return n===null?p.price:currency(n)}function cartSummary(){let total=0,pricedQty=0,unpricedQty=0;for(const item of cart.values()){const amount=numericPrice(item.product.price);if(amount===null)unpricedQty+=item.qty;else{total+=amount*item.qty;pricedQty+=item.qty}}return{total,pricedQty,unpricedQty}}function addToCart(p){const key=cartKey(p),item=cart.get(key);if(item)item.qty++;else cart.set(key,{product:p,qty:1});render();updateCart()}function changeCart(key,delta){const item=cart.get(key);if(!item)return;item.qty+=delta;if(item.qty<=0)cart.delete(key);render();updateCart()}function updateCart(){const qty=[...cart.values()].reduce((n,x)=>n+x.qty,0),summary=cartSummary();cartCount.textContent=qty;cartDockTotal.textContent=summary.pricedQty?` · ${currency(summary.total)}${summary.unpricedQty?' + prix à confirmer':''}`:summary.unpricedQty?' · prix à confirmer':'';cartDock.hidden=qty===0;if(!orderOverlay.hidden)renderCart()}function renderCart(){cartList.innerHTML='';for(const [key,item] of cart){const row=document.createElement('div');row.className='cart-row';const info=document.createElement('div');const title=document.createElement('strong');title.textContent=item.product.name;const price=document.createElement('small');price.textContent=formatPrice(item.product);info.append(title,document.createElement('br'),price);const controls=document.createElement('div');controls.className='cart-row-controls';const minus=document.createElement('button');minus.type='button';minus.textContent='−';minus.setAttribute('aria-label','Retirer une unité');minus.onclick=()=>changeCart(key,-1);const n=document.createElement('span');n.textContent=item.qty;const plus=document.createElement('button');plus.type='button';plus.textContent='+';plus.setAttribute('aria-label','Ajouter une unité');plus.onclick=()=>changeCart(key,1);controls.append(minus,n,plus);row.append(info,controls);cartList.append(row)}const summary=cartSummary();cartTotal.textContent=summary.pricedQty?(summary.unpricedQty?`Sous-total : ${currency(summary.total)} · ${summary.unpricedQty} article(s) à prix à confirmer, non inclus`:`Total de la commande : ${currency(summary.total)}`):'Total de la commande à confirmer : aucun article n’a de prix affiché.'}
+cartDock.onclick=()=>{renderCart();orderOverlay.hidden=false};document.querySelector('#orderClose').onclick=()=>orderOverlay.hidden=true;orderOverlay.addEventListener('click',e=>{if(e.target===orderOverlay)orderOverlay.hidden=true});document.addEventListener('keydown',e=>{if(e.key==='Escape')orderOverlay.hidden=true});document.querySelector('#whatsappSend').onclick=()=>{if(!cart.size)return;const customer=document.querySelector('#customerName').value.trim();const note=document.querySelector('#customerNote').value.trim();const entries=[...cart.values()];const orders=entries.filter(x=>hasFixedPrice(x.product.price));const requests=entries.filter(x=>!hasFixedPrice(x.product.price));const lines=['Bonjour, voici ma sélection :'];if(orders.length){lines.push('','Articles à commander :',...orders.map(x=>`• ${x.qty} × ${x.product.name} — ${formatPrice(x.product)}`))}if(requests.length){lines.push('','Demandes de prix :',...requests.map(x=>`• ${x.qty} × ${x.product.name} — prix à confirmer`))}const summary=cartSummary();if(summary.pricedQty)lines.push('',requests.length?`Sous-total des articles avec prix : ${currency(summary.total)} (hors demandes de prix)`:`Total de la commande : ${currency(summary.total)}`);else lines.push('','Total de la commande à confirmer : aucun article n’a de prix affiché.');if(customer)lines.push('',`Nom : ${customer}`);if(note)lines.push('',`Précision : ${note}`);const url=`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(lines.join('\n'))}`;window.open(url,'_blank','noopener,noreferrer')};
+const seed=[["Montale Intense Café 100Ml edp","Prix à confirmer","Haute parfumerie"],["Sillage d’Orient Signature Aura 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Vanilla Island 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Cherry Of Cashmere 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Fresh Tonka 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Tutti Caramelo 100Ml edp","Prix à confirmer","Haute parfumerie"],["Clarins Mini Mascara Wonder Volume couleur Black XXL","Prix à confirmer","Cosmétiques"],["Clarins Joli Rouge shine teinte 7425","Prix à confirmer","Cosmétiques","","",false],["Rochas Mademoiselle In Black 90Ml edp","Prix à confirmer","Femme"],["Boucheron Serpent Bohème 90Ml edp testeur","Prix à confirmer","Femme"],["Jimmy Choo Rose Passion 100ML edp testeur","Prix à confirmer","Femme"],["Kérastase Symbiose Masque revitalisant essentiel 200ML","Prix à confirmer","Cosmétiques","","",false],["Cacharel Anaïs Anaïs 100Ml edt écris testeur sur le code barre","Prix à confirmer","Femme"],["Versace Blue Jeans 75ML edt","Prix à confirmer","Homme","","",false],["Ralph Lauren Polo Blue 125ML edt testeur","Prix à confirmer","Homme"],["Nina Ricci Nina Collectore 80ML edt","Prix à confirmer","Femme"],["Hugo Boss Bottled Night 100Ml edt testeur","Prix à confirmer","Homme"],["Mont Blanc Legend 100Ml edt testeur","Prix à confirmer","Homme"],["Dolce Gabbaana pour homme 125ML edt testeur","Prix à confirmer","Homme","","",false],["Lanvin Mon Eclat d’Arpège 100Ml edp testeur","Prix à confirmer","Femme"],["Armani My Way Floral 50Ml edp","Prix à confirmer","Femme"],["Hugo Boss Superman X Hugo 125ML edp testeur","Prix à confirmer","Homme","","",false],["Hugo Boss XY 100Ml edt","Prix à confirmer","Homme"],["Thameen London AMber Room 50Ml Extrait de Parfum + 1 Hair Body Lotion","Prix à confirmer","Haute parfumerie"],["Thameen London Peacock Throne 50Ml Extrait de Parfum + 1 Hair Fragrance","Prix à confirmer","Haute parfumerie"],["Thameen London Rivière 50Ml Extrait de Parfum + 1 Body Lotion + 1 Hair Fragrance","Prix à confirmer","Haute parfumerie"],["Antonio Banderas The Secret 100Ml edt testeur","Prix à confirmer","Homme"],["Azzaro Chrome Legend 100Ml edt","Prix à confirmer","Homme","","",false],["Baldessarini le classic 75Ml edc testeur","Prix à confirmer","Homme"],["Calvin Klein Ck One 100Ml edt testeur","Prix à confirmer","Homme"],["Calvin Klein Eternity for Me Aromatic Essence 100ML Parfum Intense testeur","Prix à confirmer","Homme"],["Calvin Klein Ck Be 100Ml edt testeur","Prix à confirmer","Homme"],["Calvin Klein Eternity Men 100Ml edt testeur","Prix à confirmer","Homme"],["Calvin Klein Ck One Essence 100Ml Parfum Intense testeur","Prix à confirmer","Homme"],["Calvin Klein Ckin2U for him 100ml edt testeur","Prix à confirmer","Homme"],["Calvin Klein Ck Everyone 50Ml edt testeur","Prix à confirmer","Homme"],["Calvin Klein Obsession Night 125ML edt","Prix à confirmer","Homme"],["Calvin Klein Ck Free 100Ml edt testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Cobalt 100Ml edp elixir testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Cobalt 100Ml edp électrique testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Cobalt Absolue 100Ml edp Absolute testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Cobalt 100Ml edp testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Le Parfum 100ML edp testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy 100ML edt testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy Power Up Sprays 100ML edt testeur","Prix à confirmer","Homme"],["Carolina Herrera Bad Boy 100ML Parfum","Prix à confirmer","Homme"],["Coffret Carolina Herrera Cobalt 100Ml edp électrique + 2 pcs","Prix à confirmer","Homme"],["Courrèges Homme Sport 100Ml edt","Prix à confirmer","Homme"],["Davidof Cool Water 125ml edt testeur","Prix à confirmer","Homme"],["Davidof Indigo 60Ml edt testeur","Prix à confirmer","Homme"],["Dsquared2 Wood 2 100Ml edt testeur","Prix à confirmer","Homme"],["Flavia Koral 100ml edp","Prix à confirmer","Homme"],["Flavia L’Immersion 100ml edp","Prix à confirmer","Homme"],["Givenchy Pi 100Ml edt testeur","Prix à confirmer","Homme"],["Givenchy Pour homme Blue Label 100Ml edt","Prix à confirmer","Homme"],["Gucci Guilty 90Ml edt testeur","Prix à confirmer","Homme"],["Gucci Guilty Essence 90ML edt testeur","Prix à confirmer","Homme"],["H Titanium 75Ml edt","Prix à confirmer","Homme"],["Hermes Terre Hermes Eau Intense Vetiver 100Ml edp testeur","Prix à confirmer","Homme"],["Hugo Boss Dark Blue 75Ml edt testeur","Prix à confirmer","Homme"],["Hugo Boss Jeans 75ML edt","Prix à confirmer","Homme"],["Hugo Boss Selection 100Ml edt testeur","Prix à confirmer","Homme"],["Hugo Boss Energise 75Ml edt","Prix à confirmer","Homme"],["Hugo Boss In Motion 100Ml edt testeur","Prix à confirmer","Homme","","",false],["Hugo Boss Orange Man 100Ml edt testeur","Prix à confirmer","Homme"],["Hugo Boss iced edt 75ml testeur","Prix à confirmer","Homme"],["Issey miyake fusion d issey intense 100ml edt testeur","Prix à confirmer","Homme"],["Issey miyake l eau d issey intense 125ml edt testeur","Prix à confirmer","Homme"],["Jacomo Aura For Men 75Ml edt","Prix à confirmer","Homme"],["Coffret Jaguar 100Ml edt + 1 pcs","Prix à confirmer","Homme"],["Jean Patou Voyageur 50ML edt","Prix à confirmer","Homme"],["Jean Patou Voyageur 50ML edt testeur","Prix à confirmer","Homme"],["Lacoste Red 125ML edt","Prix à confirmer","Homme"],["Lagerfeld Classic Grey 100Ml edt testeur","Prix à confirmer","Homme"],["Lanvin Oxygene 100ML edt","Prix à confirmer","Homme"],["Maison Lazaar le parfum Lazaar 100Ml edp","Prix à confirmer","Homme"],["Coffret Mauboussin In Black 100Ml edp + 3 pcs","Prix à confirmer","Homme"],["Coffret Mauboussin Private Club 100ML edp + 3 pcs","Prix à confirmer","Homme"],["Mercedes Select 100Ml edt testeur","Prix à confirmer","Homme"],["Mercedes Club 100Ml edt testeur","Prix à confirmer","Homme"],["Moncler Pour homme 100Ml edp testeur","Prix à confirmer","Homme"],["Mont Blanc Individuel 75Ml edt testeur","Prix à confirmer","Homme"],["Mont Blanc Starwalker 75ml edt testeur","Prix à confirmer","Homme"],["Mont Blanc Legend Blue 50Ml edp","Prix à confirmer","Homme"],["Mont Blanc Legend Red 50Ml edp","Prix à confirmer","Homme"],["Mont Blanc Presence 75ml edt testeur","Prix à confirmer","Homme"],["Mont Blanc Individuel Tonic 75Ml edt","Prix à confirmer","Homme"],["Mugler A.Men Stellar 50Ml edp","Prix à confirmer","Homme"],["Nikos Sculpture 100Ml edt testeur","Prix à confirmer","Homme"],["Paco Rabanna Ultra Red Man 100ML edt testeur","Prix à confirmer","Homme"],["Pascal Morabito sunset boulevard 100Ml edt","Prix à confirmer","Homme"],["Coffret Ralph Lauren Ralph’s Club 100Ml edp + 2 pcs","Prix à confirmer","Homme"],["Coffret Trousse Rp Paris 100Ml edp + 3 pcs","Prix à confirmer","Homme"],["Gel Douche Rp Paris 200Ml","Prix à confirmer","Homme"],["Coffret Selection Privée N°1 100ML edp + gel douche 100Ml + 1 Bougie 70grs","Prix à confirmer","Homme"],["Coffret Selection Privée N°2 100ML edp + gel douche 100Ml + 1 Bougie 70grs","Prix à confirmer","Homme"],["The Woods Collection Bloom 100Ml edp","Prix à confirmer","Homme"],["The Woods Collection Bloom 100Ml edp","Prix à confirmer","Homme"],["Ungaro III 100Ml edt","Prix à confirmer","Homme"],["Versace L’Homme 100ML edt","Prix à confirmer","Homme"],["Versace L’Homme 100Ml edt testeur","Prix à confirmer","Homme"],["Victor & Rolf Spice Bomb Infrared 50ML edp","Prix à confirmer","Homme"],["Zadig & Voltaire This Is Him ! Vibes Of Freedom 100ML edt testeur","Prix à confirmer","Homme"],["Armani Acqua Digioa 150ML edp","Prix à confirmer","Femme"],["Balmain Extatic 90Ml edt","Prix à confirmer","Femme"],["Burberry Brit For Her 100Ml edt","Prix à confirmer","Femme"],["Calvin Klein Ckin2U for her 100ml edt testeur","Prix à confirmer","Femme"],["Calvin Klein Ck Shock for her 100ml edt testeur","Prix à confirmer","Femme"],["Calvin Klein Sheer Beauty 100Ml edt testeur","Prix à confirmer","Femme"],["Cartier La Panthère 100ML edt","Prix à confirmer","Femme"],["Carolina Herrera Chic 80ML Parfum","Prix à confirmer","Femme"],["Cerruti 1881 ( saumon ) 100ml edt testeur","Prix à confirmer","Femme"],["Chloé Signature Rose naturelle intense 150ML edp recharge","Prix à confirmer","Femme"],["Coffret Dolce & Gabbana Dolce Violet 75ML edt + 1 pcs","Prix à confirmer","Femme"],["Elie Saab Le Parfum Royal 50Ml edp","Prix à confirmer","Femme"],["Escada Especially delicate notes 30ML edt","Prix à confirmer","Femme"],["Escada Celebrates N.O.W 80Ml Edp testeur","Prix à confirmer","Femme"],["Flavia Kiss Me 100Ml edp","Prix à confirmer","Femme"],["Girl Happens Gold Dust 50Ml edp","Prix à confirmer","Femme"],["Givenchy Amarige 100Ml edt","Prix à confirmer","Femme"],["Givenchy Very Irrésistible 80ML edt","Prix à confirmer","Femme"],["Grès Cabotine Rose 100Ml edt écris testeur sur la boite","Prix à confirmer","Femme"],["Guerlain La Petite Robe noire Absolu 100Ml edp","Prix à confirmer","Femme"],["Guerlain La Petite Robe Noire L’Eau Rose 100Ml edp","Prix à confirmer","Femme"],["Guess 1981 100Ml edt pour femme","Prix à confirmer","Femme"],["Gucci Bamboo 75Ml edp testeur","Prix à confirmer","Femme"],["Gucci Bloom 100Ml edt testeur","Prix à confirmer","Femme"],["Gucci Bloom Intense 10Ml edp","Prix à confirmer","Femme"],["Hermès Tutti Twilly d’Hermès 50Ml edp","Prix à confirmer","Femme"],["Hugo Boss Woman 90ml edp","Prix à confirmer","Femme"],["Hugo Boss Femme 75ML edp testeur","Prix à confirmer","Femme"],["Hugo Boss The Scent For Her 50Ml edp testeur","Prix à confirmer","Femme"],["Hugo Boss deep red woman edp 90ml testeur","Prix à confirmer","Femme"],["Hugo Boss Orange Woman 75Ml edt testeur","Prix à confirmer","Femme"],["Hugo Boss Orange 75ML edp","Prix à confirmer","Femme"],["Hugo Boss Scent For Her 100ML edp","Prix à confirmer","Femme"],["Hugo Boss The Scent For Her Private Accord 50Ml edp","Prix à confirmer","Femme"],["Hugo Boss The Scent For Her pure Accord 50Ml edt","Prix à confirmer","Femme"],["Hugo Boss The Scent For Her 50Ml edt","Prix à confirmer","Femme"],["Hugo Boss Deep Red 90Ml edp","Prix à confirmer","Femme"],["Hugo Boss XX 100ML edt","Prix à confirmer","Femme"],["Jacomo Aura For Women 75Ml edt","Prix à confirmer","Femme"],["Jean-Louis Scherrer 100Ml edt testeur","Prix à confirmer","Femme"],["Jil Sander Sun Women 75Ml edt testeur","Prix à confirmer","Femme"],["Jimmy Choo L’Eau 90ML edt testeur","Prix à confirmer","Femme"],["J.L.Scherrer One Love 30Ml edp","Prix à confirmer","Femme"],["Kenzo Flower La récolte Parisienne 75Ml edp","Prix à confirmer","Femme"],["Kenzo Flower 100ml edp","Prix à confirmer","Femme"],["Lacoste L.12.12 Pour Elle French Panache 50Ml edt","Prix à confirmer","Femme"],["Lacoste Pour femme 50ml edp","Prix à confirmer","Femme"],["Lancaster Summer Splash 100Ml edt","Prix à confirmer","Femme"],["Lanvin Jeanne Blossom 100Ml edp","Prix à confirmer","Femme"],["Lanvin Arpége 100ML edp testeur","Prix à confirmer","Femme"],["Lanvin Mon Eclat D’Arpége 100ML edp","Prix à confirmer","Femme"],["Lanvin A Girl In Capri 90Ml edt","Prix à confirmer","Femme"],["Lolita La pomme édition Limité 100Ml edp","Prix à confirmer","Femme"],["Lolita So Sweet 50Ml edp testeur","Prix à confirmer","Femme"],["Marc Jacobs Daisy Wild Eau So Intense 100Ml edp testeur","Prix à confirmer","Femme"],["Marc Jacob Daisy Dream 100Ml edt testeur","Prix à confirmer","Femme"],["Coffret Mauboussin In red 100ML edp + 1 pcs","Prix à confirmer","Femme"],["Mauboussin Star Cherie 90Ml edp","Prix à confirmer","Femme"],["Coffret Mauboussin A La Folie 100ML edp + 3 pcs","Prix à confirmer","Femme"],["Coffret Mauboussin Pour Elle Elixir 100ML edp + 3 pcs","Prix à confirmer","Femme"],["Coffret Mauboussin Star 90ML edp + 3 pcs","Prix à confirmer","Femme"],["Mercedes Woman Pop Edition 90Ml edp testeur","Prix à confirmer","Femme"],["Michael Kors Sexy Amber 100Ml edp","Prix à confirmer","Femme"],["Moncler 150Ml edp","Prix à confirmer","Femme"],["Michael Kors Wonderlust 100Ml edp testeur","Prix à confirmer","Femme"],["Montana Parfum de peau 30Ml edt","Prix à confirmer","Femme"],["Narciso Rodriguez All Of Me 30ML edp INTENSE","Prix à confirmer","Femme"],["Narciso Rodriguez forever 50ml edp","Prix à confirmer","Femme"],["Narciso Rodriguez Radiante 90ML edp","Prix à confirmer","Femme"],["Nina Ricci Nina Fleur 80Ml edt","Prix à confirmer","Femme"],["Nina Ricci Premier Jour 100Ml edp","Prix à confirmer","Femme"],["Nina Ricci Nina Luna 50Ml edt","Prix à confirmer","Femme"],["Nina Ricci Love In Paris 50Ml edp testeur","Prix à confirmer","Femme"],["Paco Rabanne Olympéa Flora 80Ml edp intense testeur","Prix à confirmer","Femme"],["Paloma Picasso 100ML edt sans blister","Prix à confirmer","Femme"],["Prada Candy Night 80ML edp testeur","Prix à confirmer","Femme"],["Prada Candy L’eau 20Ml edt","Prix à confirmer","Femme"],["Repetto Cristal d’Eau 50Ml edt","Prix à confirmer","Femme"],["Repetto Néroli Solaire 50Ml edt","Prix à confirmer","Femme"],["Coffret Rochas Girl 60Ml edt + 2 Pcs","Prix à confirmer","Femme"],["Rochas Byzance 90ml edp testeur","Prix à confirmer","Femme"],["Shaghaf for women Swiss Arabian 75ml edp","Prix à confirmer","Femme"],["S By Shakira 80Ml edt testeur","Prix à confirmer","Femme"],["Ungaro Diva 100Ml edp","Prix à confirmer","Femme"],["Victor & Rolf Flower Bomb Ruby Orchid 100Ml edp testeur","Prix à confirmer","Femme"],["Victor n’Rolf Flower Bomb In The Sky Edition 50Ml edp","Prix à confirmer","Femme"],["Coffret Victor & Rolf Flower Bomb Tiger Lily 50ML edp + 10Ml edp","Prix à confirmer","Femme"],["Zadig & Voltaire ZADIG 90Ml edp","Prix à confirmer","Femme"],["Boucheron Rose d’Isparta 125ml edp","Prix à confirmer","Haute parfumerie"],["Casamorati Fiore d’Ulivo 100Ml edp","Prix à confirmer","Haute parfumerie","","",false],["Charriol Collection Privée Infinite Celtic 100Ml edp","Prix à confirmer","Haute parfumerie"],["Collection Chopard Rose seljuke 100ML edp","Prix à confirmer","Haute parfumerie"],["Collection Chopard Vétiver d’Haïti au thé vert 100ML edp","Prix à confirmer","Haute parfumerie"],["Collection Chopard Jasmin Moghol 100ML edp","Prix à confirmer","Haute parfumerie"],["Chopard Cedar Maliki 80Ml edp","Prix à confirmer","Haute parfumerie"],["Dolce & Gabbana Velvet Desire 100Ml edp testeur","Prix à confirmer","Haute parfumerie"],["Dolce & Gabbana Velvet Rose 100Ml edp testeur","Prix à confirmer","Haute parfumerie"],["Elie Saab Nuit Noor 90Ml edp","Prix à confirmer","Haute parfumerie"],["Juliette Has Gun Lady Vengeance 50Ml edp","Prix à confirmer","Haute parfumerie"],["Signature by Sillage d’Orient Rose 100ML parfum + 15 ml","Prix à confirmer","Haute parfumerie"],["Signature by Sillage d’Orient Jade 100ML parfum + 15 ml","Prix à confirmer","Haute parfumerie"],["Lancôme Magnolia Rosae 100Ml edp","Prix à confirmer","Haute parfumerie"],["Lancôme Collection Absolue Le Parfum Musk & White Tea 100ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Citron Macaron 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Exquidite Pear 100Ml edp","Prix à confirmer","Haute parfumerie"],["Les Princes du Golfe Mediterranée 100Ml edp","Prix à confirmer","Haute parfumerie"],["Louboutin Loubikiss 90Mlm edp","Prix à confirmer","Haute parfumerie"],["Louboutin Loubifunk 90Mlm edp","Prix à confirmer","Haute parfumerie"],["Louboutin Loubiman 90Mlm edp","Prix à confirmer","Haute parfumerie"],["Louboutin Loubicroc 90Mlm edp","Prix à confirmer","Haute parfumerie"],["Louboutin Loubiraj 90Mlm edp","Prix à confirmer","Haute parfumerie"],["Maison Fragranza Fragamour 100ml edp","Prix à confirmer","Haute parfumerie"],["Maison Fragranza Cœur Blanc 100ml edp","Prix à confirmer","Haute parfumerie"],["Maison Fragranza Blvd Haussman 100ml edp","Prix à confirmer","Haute parfumerie"],["Maison Fragranza Rosa Vento 100ml edp","Prix à confirmer","Haute parfumerie"],["Maison Fragranza Santal Gourmand100ml edp","Prix à confirmer","Haute parfumerie"],["Maison Rebatchi Cuir Tassili 50ml edp","Prix à confirmer","Haute parfumerie"],["Maison Rebatchi Feu Patchouli 50ml edp","Prix à confirmer","Haute parfumerie"],["Maison Rebatchi Joyeux Osmanthe 50ml edp","Prix à confirmer","Haute parfumerie"],["Maison Rebatchi Rose Rebatchi 50ml edp","Prix à confirmer","Haute parfumerie"],["Maison Rebatchi Velvet Date 50ml edp","Prix à confirmer","Haute parfumerie"],["Mancera Coco Vanille 120Ml edp","Prix à confirmer","Haute parfumerie"],["Mancera Instant Crush 120Ml edp","Prix à confirmer","Haute parfumerie"],["Mancera Velvet Vanilla 120Ml edp","Prix à confirmer","Haute parfumerie"],["Mancera Tonka Cola 120Ml edp testeur","Prix à confirmer","Haute parfumerie"],["Mancera Eternal Wood 120Ml edp","Prix à confirmer","Haute parfumerie"],["Mancera Aoud Black Candy 120ML edp","Prix à confirmer","Haute parfumerie"],["Mancera Pink Rose 120ML edp","Prix à confirmer","Haute parfumerie"],["Mancera Of The Wild 120ML edp","Prix à confirmer","Haute parfumerie"],["Mancera Pearl 120ML edp","Prix à confirmer","Haute parfumerie"],["Montale Roses Musk 100Ml edp","Prix à confirmer","Haute parfumerie"],["Collection Martil 1000 Excuses 100Ml extrait de parfum","Prix à confirmer","Haute parfumerie"],["Collection Martil Pulsion 100Ml extrait de parfum","Prix à confirmer","Haute parfumerie"],["Collection Martil Tapis Rouge 100Ml extrait de parfum","Prix à confirmer","Haute parfumerie"],["Collection Martil Révélation 100Ml extrait de parfum","Prix à confirmer","Haute parfumerie"],["Collection Martil Ultime 100Ml extrait de parfum","Prix à confirmer","Haute parfumerie"],["Tom Ford Rose de Chine 50Ml edp","Prix à confirmer","Haute parfumerie"],["Armani Lip Gloss 3.5Ml","Prix à confirmer","Cosmétiques"],["BareMinerals Crystalline Glow Palettes de poudres bronzantes","Prix à confirmer","Cosmétiques"],["Coffret BlackUp The HAir Essentials 3 x 50ML","Prix à confirmer","Cosmétiques"],["Brume pour le corps Women ‘ Secret 250ml","Prix à confirmer","Cosmétiques"],["Brumes guess : Mykonos, St Tropez Ibiza et Rose","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Ombres à Paupières Pillow Talk Dreams","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Air Brush Brightening Flawless Finish Recharge Teinte Pâle-Moyen","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Concealer Correcteur & anti cernes teinte 16.5 deep foncé","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Fond De Teint Air Brush Flawless Foundation 30ml teinte 10 cool/froid","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Fond De Teint Beautiful Skin Foundation Teinte 10 Chaud","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Fond De Teint Beautiful Skin Foundation Teinte 8 neutre","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury hollywood Glow Glide face Architect enlumineur visage","Prix à confirmer","Cosmétiques"],["Charlotte Tilbury Ombres à Paupières Pillow Talk Dreams","Prix à confirmer","Cosmétiques"],["Davidoff Cool Water Night Dive Gel Douche 150Ml","Prix à confirmer","Cosmétiques"],["Davidoff Cool Water Night Dive Lait Pour Le Corps 150Ml","Prix à confirmer","Cosmétiques"],["Déodorant Mauboussin 200Ml","Prix à confirmer","Cosmétiques"],["Déodorant Armaf 200ml Club de nuit intense","Prix à confirmer","Cosmétiques"],["Crème Estée Lauder Re-Nutriv Ultimate Lift 50ML","Prix à confirmer","Cosmétiques"],["Estée Lauder Gel-crème contour yeux 15ML","Prix à confirmer","Cosmétiques"],["Estée Lauder Re-Nutriv Teint éclat intense 30Ml teint cool porcelain","Prix à confirmer","Cosmétiques"],["Estée Lauder Re-Nutriv Teint éclat intense 30Ml teint Warm Vanilla","Prix à confirmer","Cosmétiques"],["Estée Lauder Re-Nutriv Teint éclat intense 30Ml teint Warm porcelain","Prix à confirmer","Cosmétiques"],["Fresh Floral Recovery Masque Floral réconfort Régénerant 100ML","Prix à confirmer","Cosmétiques"],["Gel Douche Alfa Roméo 400Ml 2 Références","Prix à confirmer","Cosmétiques"],["Gel Douche Calvin Klein Defy 100Ml","Prix à confirmer","Cosmétiques"],["Gel Douche Mexx 50Ml","Prix à confirmer","Cosmétiques"],["Eyeliner Givenchy feutre précision tenue 24H Couleur Noire","Prix à confirmer","Cosmétiques"],["Lancaster Sérum 365 Skin Repair 50ml + Lancaster Essence Lotion 200ML","Prix à confirmer","Cosmétiques"],["Lancaster Huile Après Soleil 150ml + Lancaster Sérum Après Soleil 30ML","Prix à confirmer","Cosmétiques"],["Lancaster Huile Après Soleil 150ml","Prix à confirmer","Cosmétiques"],["Lancaster Essence Lotion 200ML","Prix à confirmer","Cosmétiques"],["Coffret Lancôme Advanced Génifique 10ML + Génifique Yeux 5ML","Prix à confirmer","Cosmétiques"],["Lancôme Clarifique Double Essence 150ML testeur","Prix à confirmer","Cosmétiques"],["Rouge a lèvres Nars couleur N°133 Too Hot","Prix à confirmer","Cosmétiques"],["Nocibé Mascara Noir","Prix à confirmer","Cosmétiques"],["Rouge à lèvres couleur Rouge made in France","Prix à confirmer","Cosmétiques"],["Sac à dos léger Hugo Boss","Prix à confirmer","Cosmétiques"],["Trousse Bulgari 3 Modèles femme et 1 modèle homme","Prix à confirmer","Cosmétiques"],["Olaplex N°3 100ML","Prix à confirmer","Cosmétiques"]];
+for(const row of seed){if(row[0]==='The Woods Collection Bloom 100Ml edp' && seed.filter(x=>x[0]==='The Woods Collection Bloom 100Ml edp').indexOf(row)===1)row[0]='The Woods Collection Bloom 100Ml edp testeur';if(row[0].startsWith('Coffret Trousse Rp Paris 100Ml edp + 3 pcs'))row[0]+=' (odeurs : Bella, Majestic, So Oud)';if(row[0]==='Gel Douche Rp Paris 200Ml')row[0]+=' (odeurs : Bella, Majestic, So Oud)';if(row[0].startsWith('Coffret Carolina Herrera Cobalt 100Ml edp électrique + 2 pcs'))row[0]+=' — boîte légèrement abîmée';}
+seed.push(...[["Louis Martin Amber Rêvante 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Attirer-Rêves 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Azure Lumière 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Bois de Emperor 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Candy dream 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin City of dreams 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Crème whisper 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Crimson Andalusia 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Empadia Rose 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Imagination 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Imagique 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Immensity 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Ombre rêvante 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin On The Breeze 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Oud Cadence 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Pacific freez 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Rêve infini 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Sable Rosé 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Solar Song 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Stella Rêve 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Vanilla Powdery Extreme 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Louis Martin Vanille extrême 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie Amber Lychee 100","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie apple crush 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie candid vanilla 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie classic pistachio 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie irish vanilla 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie Lemon Spark 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie marshmallow 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie Silk Serenity 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie summer bottled 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie vanilla 70 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Kenzie water melon 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Aether 100 ml Extrait de parfum","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Azzure Aoud 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Haydan An Equestrian Series 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Paradigm 80 ml extrait de parfum","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Pierce An Equestrian Series 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Pinnace 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["French Avenue Pinnace Oryn 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Brumes Dubaï Flower Marsmallow crush 250 ml","Prix à confirmer","Cosmétiques"],["Brumes Dubaï Flower Yara candy 250 ml","Prix à confirmer","Cosmétiques"],["Brumes Dubaï Flower Eclaire 250 ml","Prix à confirmer","Cosmétiques"],["Gulf Orchid Al qasr 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid al qasr dahab 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Baklava bite 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid banana split 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Brumes musk collection pomegranate 250 ml","Prix à confirmer","Cosmétiques"],["Gulf Orchid Brumes musk collection tropical 250 ml","Prix à confirmer","Cosmétiques"],["Gulf Orchid Candy bite 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid coco blanco 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret matin martin 6 x 2 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret musk collection 10 x 2 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret Musk Collection 4 x 25 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret musk collection blueberry 3 pcs","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret musk collection tropical fruit 3 pcs","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Coffret sham 100 ml edp + créme parfumée 25 grs","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Cookie bite 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Creamy pistachio 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Creme pour corps et cheveux gulf orchid layla","Prix à confirmer","Cosmétiques"],["Gulf Orchid Creme pour corps et cheveux gulf orchid lulut alhob","Prix à confirmer","Cosmétiques"],["Gulf Orchid Creme pour corps et cheveux gulf orchid lulut allail","Prix à confirmer","Cosmétiques"],["Gulf Orchid Creme pour corps et cheveux gulf orchid rahaf","Prix à confirmer","Cosmétiques"],["Gulf Orchid Creme pour corps et cheveux gulf orchid shaghaf alrouh","Prix à confirmer","Cosmétiques"],["Gulf Orchid Creme pour corps et cheveux gulf orchid silky musc","Prix à confirmer","Cosmétiques"],["Gulf Orchid annabel 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid honeymoon 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid ishq 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid meydan 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid moonlight 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid musk n°33 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid oriental rose 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid reflection 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid rose kiss 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid sarab 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid shahm 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid sunset kiss 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid heveny lychee 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Highness 105 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Hikma 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Love me now 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Mango heaven 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Mango ice 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Mangotini 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Marshmallow Nouveauté 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Mojito obsession 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Musk collection tahara vanilla 12 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Musk collection tropical 60 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Old fashioned 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Pink crush","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Pink Marshmallow 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Pomegranate body lotion 110 ml","Prix à confirmer","Cosmétiques"],["Gulf Orchid Pomegranate musk collection 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Red velvet","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Riwaya 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Riwaya chapter -1 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Riwaya chapter -2 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Ruby fizz 100 edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sham 100 ml edp by attri","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sheikh al oud by gulf orchid 100 ml edp ( le blanc )","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sheikh al oud by gulf orchid 100 ml edp ( le bordeaux )","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sisha 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sweet heaven by gulf orchid 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sweet heaven extreme by gulf orchid 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Sweet like candy","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Tahiti colada 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Taraf 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Toxic love 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Vanilla Latte 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Vanilla Naughty 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Vanilla on the beach 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Vanille addiction 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Gulf Orchid Vanille addiction 30 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Aseel 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Cascade 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Coffee blend 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Emerald 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar fairyland 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Harmony 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Khayyal 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Love key 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Luna 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Mohra 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Onootha 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Onootha wardy 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Plot twist","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Rosé 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Rubellite 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Silver elixir 110 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Throne 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Throne eclipse 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Timeless 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Unsolved mystery","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Vanilla aura 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Vanilla seduction 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Vanilla voyage 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar wadi 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maison Asrar Whisper 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Afnan 9am 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Al jefri jasmine 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Coffret al jefri rose 50 ml edp + 2 pcs","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khair peach delulu paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khayal paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Minya paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Musk candy myperfumes 80 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ophidian black cherry paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ophidian mango bliss paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qissa delicious paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Rasasi hawas 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Royal cotton collection cotton rouge 100 ml mamlakat al oud","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Swiss arabian shaghaf 75 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Taskeen caramel cascade paris corner of 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Taskeen paris corner 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Air freshner 300 ml yara","Prix à confirmer","Cosmétiques"],["Ajwad pink","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Al dirgham","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Al nashama 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Al qiam gold lattafa pride 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameer al arab imperium","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameer al oud","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameer imperium","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameerat 50 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameerat al arab parfum cheveux 50 ml","Prix à confirmer","Cosmétiques"],["Ameerat al arab pink 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ameerat al Arab sugar crown 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Andaleeb flora","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Angham 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Asad (le noir ) 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Asad blue zanzibar","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Asad Elixir 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Awaan lattafa pride 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Bab al hamra","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Bab al wardi","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Badee al oud sublime 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Bint hooran rose passion","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Blue oud 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Brumes Ameerat Al Arab le rose 150 ml","Prix à confirmer","Cosmétiques"],["Brumes Ameerat Al Arab le rouge 150 ml","Prix à confirmer","Cosmétiques"],["Coffret Ameerat al arab rouge 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Coffret Yara 4 x 5 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Cotton d’or","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Daloate ana","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Dark Door sport 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Delilah 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Eau de milky ahlam al arab 100 ml","Prix à confirmer","Cosmétiques"],["Eau de milky malak 100 ml","Prix à confirmer","Cosmétiques"],["Eau de milky washwasha 100 ml","Prix à confirmer","Cosmétiques"],["Eclair 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Emessa maison asrar 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Eternal Vanille 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Fakhar gold 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Fakhar noir 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Galactic Men intense 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Glacier Bella 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Glacier Bold 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Hair mist ajmal bloom","Prix à confirmer","Cosmétiques"],["Haya","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Hayaati florence 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Her Confession 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["I am ana abiyadh","Prix à confirmer","Parfums de Dubaï (inspirations)"],["I am ana abiyadh leather","Prix à confirmer","Parfums de Dubaï (inspirations)"],["I am ana abiyadh scarlet","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ithra mango","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ithra pistachio","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Ithra pomegranate","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Jaanaa lait","Prix à confirmer","Cosmétiques"],["Juicy melange","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khair","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khair fusion","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khair pistachio","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khaltaat al arabia","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khamrah dukhan 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Khamrah qahwa 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Lail Maleki 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["London oud","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maahir 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Mango ithra musc collection","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Maraseem 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Marina 50 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Mayar 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Mayar intense 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Mousuf azure","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Musk mood 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Natural Oud","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Nebras lattafa pride","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Now Women le rose 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Opulence Leather 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Pear potion","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Philos opus noir","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Philos pura 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Philos rosso 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Pistachio ithra musc collection","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Pomegranate ithra musc collection","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Pure musk 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qaa’ed lattafa 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qaed al fursan 90 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qaed Al Fursan Unlimited 90 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qimmah women 100 ml","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Qissa blue","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Raed luxe 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Raghba 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Reyna femme 100 ml edp maison al hambra","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Royal musk blue","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Royal musk purple","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Royal musk ruman","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Safeer al hub","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Safwaan l’autre ôud 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Shaheen gold lattafa pride 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Shaheen silver lattafa pride 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Sheikh shuyukh 50 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Silky musk 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Sondos lattafa 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Tharwah silver 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Thouq 80 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Velvet rose 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Washwashah","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara 50 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara asad bourbon","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara bourbon ( marron ) 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara candy 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara elixir 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara moi ( blanc ) 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara orange 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara rose 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Yara rose mukhammaria 20grs","Prix à confirmer","Cosmétiques"],["Yara zanzibar ( bleu ) 100 ml edp","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Oud elixir 100 ml EDP (inspiration : Oud maracuja maison crivelli)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Malaki 100 ml EDP (inspiration : Bianco latte maison giardini di toscana)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Amber white 100 ml EDP (inspiration : Herba pura xerjoff)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Farah 100 ml EDP (inspiration : Psychodelic love ( initio ))","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Red intense 100 ml EDP (inspiration : Sparkling lychee kayali)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Red juicy 100 ml EDP (inspiration : Juicy apple kayali)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Eternal pink 100 ml EDP (inspiration : Vanilla candy rock sugar kayali)","Prix à confirmer","Parfums de Dubaï (inspirations)"],["Collection AYAT Bab al ahlam 100 ml EDP (inspiration : Marshmallow kayali avec des notes de fraises)","Prix à confirmer","Parfums de Dubaï (inspirations)"]]);
+seed.push(...[
+["RP Paris Eau de Foudre","25 €","Parfums RP","50 ml Eau de Parfum","Bois d’Argent — Christian Dior"],
+["RP Paris Poème Rouge","25 €","Parfums RP","50 ml Eau de Parfum","Gris Montaigne — Christian Dior"],
+["RP Paris N°3","25 €","Parfums RP","50 ml Eau de Parfum","Ambre Nuit — Christian Dior"],
+["RP Paris N°4","25 €","Parfums RP","50 ml Eau de Parfum","Oud Ispahan — Christian Dior"],
+["RP Paris N°5","25 €","Parfums RP","50 ml Eau de Parfum","La Colle Noire — Christian Dior"],
+["RP Paris N°6","25 €","Parfums RP","50 ml Eau de Parfum","Fève Délicieuse — Christian Dior"],
+["RP Paris N°7","25 €","Parfums RP","50 ml Eau de Parfum","New Look — Christian Dior"],
+["RP Paris Brin de Folie","25 €","Parfums RP","50 ml Eau de Parfum","Supreme Bouquet — YSL"],
+["RP Paris N°9","25 €","Parfums RP","50 ml Eau de Parfum","Sable d’Or — Armani Privé"],
+["RP Paris N°10","25 €","Parfums RP","50 ml Eau de Parfum","Rose d’Arabie — Armani Privé"],
+["RP Paris N°11","25 €","Parfums RP","50 ml Eau de Parfum","Bal d’Afrique — Byredo"],
+["RP Paris N°12","25 €","Parfums RP","50 ml Eau de Parfum","Oud Bouquet — Lancôme"],
+["RP Paris N°13","25 €","Parfums RP","50 ml Eau de Parfum","Black Afghano — Nasomatto"],
+["RP Paris N°14","25 €","Parfums RP","50 ml Eau de Parfum","Cuir Belugha — Guerlain"],
+["RP Paris N°15","25 €","Parfums RP","50 ml Eau de Parfum","Ambre Tigrée — Christian Dior"],
+["RP Paris Joyaux d’Orient","25 €","Parfums RP","50 ml Eau de Parfum","Baccarat Rouge — M. Francis Kurkdjian"],
+["RP Paris N°18","25 €","Parfums RP","50 ml Eau de Parfum","Rose of No Man’s Land — Byredo"],
+["RP Paris N°19","25 €","Parfums RP","50 ml Eau de Parfum","Desert Oud"],
+["RP Paris N°20","25 €","Parfums RP","50 ml Eau de Parfum","Oud Wood — Tom Ford"],
+["RP Paris N°21","25 €","Parfums RP","50 ml Eau de Parfum","Tobacco Vanille — Tom Ford"],
+["RP Paris Musc Blanc (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Musc Tahara"],
+["RP Paris Fleur du Nil (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Rose d’Alexandrie — Armani Privée"],
+["RP Paris Délicieuse (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Rose Vanille — Mancera"],
+["RP Paris Sunset (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Soleil Blanc — Tom Ford"],
+["RP Paris Fabuleux (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Fabulous — Tom Ford"],
+["RP Paris Azzura","25 €","Parfums RP","50 ml Eau de Parfum","Infusions d’Iris — Prada"],
+["RP Paris Bella","25 €","Parfums RP","50 ml Eau de Parfum","Magic — Al Jazeera (Aïcha)"],
+["RP Paris Rouge Paris (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Rouge Trafalgar — Christian Dior"],
+["RP Paris Santal Rouge (Nouveauté)","25 €","Parfums RP","50 ml Eau de Parfum","Santal 33 — Le Labo"],
+["RP Paris Majestic","25 €","Parfums RP","50 ml Eau de Parfum","Kirké — Tiziana Terenzi"],
+["RP Paris Jasmin de Nuit","25 €","Parfums RP","50 ml Eau de Parfum","Jasmin des Anges — Christian Dior"],
+["RP Paris Malachite","25 €","Parfums RP","50 ml Eau de Parfum","Vert Malachite — Armani"],
+["RP Paris Soleil d’Arabie","25 €","Parfums RP","50 ml Eau de Parfum","Néroli Portofino — Tom Ford"],
+["RP Paris Velours Noirs","25 €","Parfums RP","50 ml Eau de Parfum","Matière Noire — Louis Vuitton"],
+["RP Paris Rose Cerise","25 €","Parfums RP","50 ml Eau de Parfum","Sakura — Christian Dior"],
+["RP Paris Sicilian Bergamot","25 €","Parfums RP","50 ml Eau de Parfum","Venetian Bergamot — Tom Ford"],
+["RP Paris So Oud","25 €","Parfums RP","50 ml Eau de Parfum","Mula Mula — Byron"],
+["RP Paris Vie de Rêve","25 €","Parfums RP","50 ml Eau de Parfum","Attrape-Rêves — Louis Vuitton"],
+["RP Paris Cuir d’Italie","25 €","Parfums RP","50 ml Eau de Parfum","Tuscan Leather — Tom Ford"],
+["RP Paris Orchid Blanc","25 €","Parfums RP","50 ml Eau de Parfum","Black Orchidée — Tom Ford"],
+["RP Paris Purple Money","25 €","Parfums RP","50 ml Eau de Parfum","Lost Cherry — Tom Ford"],
+["RP Paris Sucre Noir","25 €","Parfums RP","50 ml Eau de Parfum","Sucre Noir — Arte Profumi"],["Kera Queen's Pack Trio Kératine & Figue de Barbarie (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Pack Trio Kératine & Huile de Ricin (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Pack Trio Kératine & Aloe Vera (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Pack Trio Kératine & Coco (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Pack Trio Kératine & Amla (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Pack Trio Kératine & Tanin (Shampoing 500ml + Masque 500ml + Sérum 100ml)","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine Intense 1000ml","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine & Ail 1000ml","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine & Ricin 1000ml","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine & Nigelle 1000ml","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine & Figue de Barbarie 1000ml","35 €","Soins capillaires"],["Kera Queen's Botox Capillaire Kératine & Argan 1000ml","35 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Lissage Effet Miroir (3 x 150ml)","Prix à confirmer","Soins capillaires"],["Kera Queen's Kit Duo Botox Figue de Barbarie 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Nigelle 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Kératine Intense 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Kératine & Argan 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Kératine & Ail 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Kit Duo Botox Kératine & Ricin 500ml + Shampoing 500ml","40 €","Soins capillaires"],["Kera Queen's Booster Capillaire 100ml","28 €","Soins capillaires"]
+]);
+const seenSeed=new Set();for(let i=seed.length-1;i>=0;i--){const k=seed[i][0].toLocaleLowerCase('fr').replace(/[^a-z0-9]+/g,'');if(seenSeed.has(k))seed.splice(i,1);else seenSeed.add(k)}let products=seed.map(([name,price,category,size,inspi,available])=>({brand:"",name,size:size||"",inspi:inspi||"",price,available:available!==false,category}));
+for(const row of seed){row[0]=row[0].replace(/(\d+(?:[.,]\d+)?)\s*ml\b/gi,'$1 ml').replace(/\b(edp|edt|edc)\b/gi,m=>m.toUpperCase()).replace(/Dolce Gabbaana/i,'Dolce & Gabbana').replace(/Davidof(?=f? )/i,'Davidoff').replace(/Victor n’Rolf/i,'Viktor & Rolf').replace(/Victor & Rolf/i,'Viktor & Rolf');}
+const retailHints=[
+[/^mont blanc starwalker 75 ml edt testeur$/,32],[/^gres cabotine rose 100 ml edt ecris testeur sur la boite$/,16],[/^guess 1981 100 ml edt pour femme$/,22],[/^hugo boss deep red woman edp 90 ml testeur$/,35],
+[/^signature by sillage d orient rose 100 ml parfum/,50],[/^signature by sillage d orient jade 100 ml parfum/,70],[/^hugo boss deep red 90 ml edp$/,40],
+[/^davidoff cool water 125 ml edt testeur$/,30],[/^davidoff indigo 60 ml edt testeur$/,18],[/^signature by sillage d orient rose 100 ml edp/,50],[/^signature by sillage d orient jade 100 ml edp/,70],[/^hugo boss deep red 90 ml edp testeur$/,35],[/^lolita la pomme edition limite 100 ml edp$/,50],
+[/^antonio banderas the secret 100 ml edt testeur$/,20],
+[/^azzaro chrome legend 100 ml edt$/,35],
+[/^carolina herrera bad boy cobalt 100 ml edp elixir testeur$/,60],
+[/^carolina herrera bad boy cobalt 100 ml edp electrique testeur$/,55],
+[/^carolina herrera bad boy cobalt absolue 100 ml edp absolute testeur$/,55],
+[/^carolina herrera bad boy cobalt 100 ml edp testeur$/,55],
+[/^carolina herrera bad boy le parfum 100 ml edp testeur$/,60],
+[/^carolina herrera bad boy 100 ml edt testeur$/,55],
+[/^carolina herrera bad boy power up sprays 100 ml edt testeur$/,50],
+[/^coffret carolina herrera cobalt 100 ml edp electrique 2 pcs/,70],
+[/^davidof cool water 125 ml edt testeur$/,30],
+[/^davidof indigo 60 ml edt testeur$/,18],
+[/^flavia koral 100 ml edp$/,28],
+[/^flavia l immersion 100 ml edp$/,28],
+[/^givenchy pi 100 ml edt testeur$/,40],
+[/^gucci guilty 90 ml edt testeur$/,50],
+[/^hugo boss orange man 100 ml edt testeur$/,35],
+[/^hugo boss iced edt 75 ml testeur$/,32],
+[/^issey miyake fusion d issey intense 100 ml edt testeur$/,35],
+[/^issey miyake l eau d issey intense 125 ml edt testeur$/,35],
+[/^coffret jaguar 100 ml edt 1 pcs$/,20],
+[/^jean patou voyageur 50 ml edt$/,18],[/^jean patou voyageur 50 ml edt testeur$/,15],
+[/^mercedes select 100 ml edt testeur$/,35],
+[/^mercedes club 100 ml edt testeur$/,35],
+[/^moncler pour homme 100 ml edp testeur$/,35],
+[/^mont blanc individuel 75 ml edt testeur$/,35],
+[/^mont blanc starwalker 75 ml edt$/,32],
+[/^nikos sculpture 100 ml edt testeur$/,16],
+[/^coffret trousse rp paris 100 ml edp 3 pcs/,35],
+[/^gel douche rp paris 200 ml/,4],
+[/^coffret selection privee n 1 100 ml/,35],
+[/^coffret selection privee n 2 100 ml/,35],
+[/^signature by sillage d orient rose 100 ml edp/,50],
+[/^signature by sillage d orient jade 100 ml edp/,70],
+[/^the woods collection bloom 100 ml edp testeur$/,35],
+[/^the woods collection bloom 100 ml edp$/,40],
+[/^ungaro iii 100 ml edt$/,30],
+[/^viktor rolf spice bomb infrared 50 ml edp$/,55],
+[/^zadig voltaire this is him vibes of freedom 100 ml edt testeur$/,40],
+[/^balmain extatic 90 ml edt$/,35],
+[/^burberry brit for her 100 ml edt$/,40],
+[/^calvin klein sheer beauty 100 ml edt testeur$/,30],
+[/^cartier la panthere 100 ml edt$/,68],
+[/^coffret dolce gabbana dolce violet 75 ml edt/,60],
+[/^escada especially delicate notes 30 ml edt$/,16],
+[/^escada celebrates n o w 80 ml edp testeur$/,25],
+[/^flavia kiss me 100 ml edp$/,28],
+[/^givenchy amarige 100 ml edt$/,55],
+[/^givenchy very irresistible 80 ml edt$/,60],
+[/^gres cabotine rose 100 ml edt ecris testeur sur le code barre$/,16],
+[/^guess 1981 100 ml edt$/,22],
+[/^gucci bloom 100 ml edt testeur$/,52],
+[/^gucci bloom intense 10 ml edp$/,20],
+[/^hugo boss woman 90 ml edp$/,40],
+[/^hugo boss deep red 90 ml edp testeur$/,35],
+[/^hugo boss orange woman 75 ml edt testeur$/,35],
+[/^hugo boss the scent for her 100 ml edp$/,55],
+[/^jacomo aura for women 75 ml edt$/,25],
+[/^jean louis scherrer 100 ml edt testeur$/,28],
+[/^jil sander sun women 75 ml edt testeur$/,25],
+[/^jimmy choo l eau 90 ml edt testeur$/,34],
+[/^kenzo flower la recolte parisienne 75 ml edp$/,52],
+[/^kenzo flower 100 ml edp$/,55],
+[/^lacoste pour femme 50 ml edp legere$/,35],
+[/^lancaster summer splash 100 ml edt$/,20],
+[/^lanvin jeanne blossom 100 ml edp$/,35],
+[/^lolita la pomme edition limite 100 ml edp$/,50],
+[/^thameen london riviere.*body lotion.*hair fragrance/,95],
+[/^clarins mini mascara wonder volume couleur black/,5],
+[/^clarins joli rouge shine teinte 7425/,7],
+[/^rochas mademoiselle in black 90 ml edp/,40],
+[/^boucheron serpent boheme 90 ml edp/,35],
+[/^jimmy choo rose passion 100 ml edp/,35],
+[/^kerastase symbiose masque revitalisant essentiel 200 ml/,30],
+[/^cacharel anais anais 100 ml edt/,35],
+[/^versace blue jeans 75 ml edt/,25],
+[/^ralph lauren polo blue 125 ml edt/,40],
+[/^nina ricci nina collectore 80 ml edt/,50],
+[/^hugo boss bottled night 100 ml edt testeur/,40],
+[/^mont blanc legend 100 ml edt testeur/,40],
+[/^dolce gabbana pour homme 125 ml edt testeur/,45],
+[/^lanvin mon eclat d arpege 100 ml edp testeur/,30],[/^lanvin mon eclat d arpege 100 ml edp/,35],
+[/^armani my way floral 50 ml edp/,50],
+[/^hugo boss superman x hugo 125 ml edp/,38],
+[/^hugo boss xy 100 ml edt/,38],
+[/^thameen london/,85],
+[/^calvin klein ck one 100 ml edt testeur$/,23],[/^calvin klein ck be 100 ml edt testeur$/,23],[/^calvin klein eternity men 100 ml edt testeur$/,30],[/^calvin klein ckin2u for him 100 ml edt testeur$/,25],[/^calvin klein ck everyone 50 ml edt testeur$/,23],[/^calvin klein obsession night 125 ml edt$/,35],[/^calvin klein ck free 100 ml edt testeur$/,25],
+[/^carolina herrera bad boy 100 ml parfum$/,65],[/^courreges homme sport 100 ml edt$/,20],[/^dsquared2 wood 2 100 ml edt testeur$/,35],[/^givenchy pour homme blue label 100 ml edt$/,50],[/^h titanium 75 ml edt$/,15],[/^hermes terre hermes eau intense vetiver 100 ml edp testeur$/,65],
+[/^hugo boss jeans 75 ml edt$/,30],[/^hugo boss selection 100 ml edt testeur$/,30],[/^hugo boss energise 75 ml edt$/,35],[/^hugo boss in motion 100 ml edt testeur$/,35],[/^jacomo aura for men 75 ml edt$/,25],[/^jean patou voyageur 50 ml edt$/,25],[/^lacoste red 125 ml edt$/,45],[/^lagerfeld classic grey 100 ml edt testeur$/,20],[/^lanvin oxygene 100 ml edt$/,25],[/^lanvin eclat d arpege 100 ml edt testeur$/,30],[/^maison lazaar le parfum lazaar 100 ml edp$/,30],
+[/^coffret mauboussin (star|in black|in red|private club) /,40],[/^mont blanc legend blue 50 ml edp$/,40],[/^mont blanc legend red 50 ml edp$/,38],[/^mont blanc presence 75 ml edt testeur$/,35],[/^mont blanc individuel tonic 75 ml edt$/,35],[/^mugler a men stellar 50 ml edp$/,45],[/^paco rabanna ultra red man 100 ml edt testeur$/,35],[/^pascal morabito sunset boulevard 100 ml edt$/,20],[/^coffret ralph lauren ralph s club 100 ml edp/,80],[/^versace l homme 100 ml edt$/,35],[/^versace l homme 100 ml edt testeur$/,30],[/^victor ?& ?rolf spice bomb infrared 50 ml edp$/,55],
+[/^armani acqua digioa 150 ml edp$/,68],[/^calvin klein ckin2u for her 100 ml edt testeur$/,25],[/^calvin klein ck shock for her 100 ml edt testeur$/,24],[/^carolina herrera chic 80 ml parfum$/,50],[/^cerruti 1881 saumon 100 ml edt testeur$/,30],[/^chloe signature rose naturelle intense 150 ml edp recharge$/,80],[/^elie saab le parfum royal 50 ml edp$/,50],[/^escada celebrates now 80 ml edp testeur$/,25],[/^girl happens gold dust 50 ml edp$/,6],[/^guerlain la petite robe noire absolu 100 ml edp$/,72],[/^guerlain la petite robe noire l eau rose 100 ml edp$/,72],[/^gucci bamboo 75 ml edp testeur$/,48],[/^gucci bamboo edt 75 ml testeur$/,48],[/^hermes tutti twilly d hermes 50 ml edp$/,55],
+[/^hugo boss femme 75 ml edp testeur$/,40],[/^hugo boss the scent for her 50 ml edp testeur$/,40],[/^hugo boss deep red 50 ml edp$/,30],[/^hugo boss orange 75 ml edp$/,40],[/^hugo boss the scent for her 100 ml edp$/,58],[/^hugo boss the scent for her private accord 50 ml edp$/,45],[/^hugo boss the scent for her pure accord 50 ml edt$/,40],[/^hugo boss the scent for her 50 ml edt$/,40],[/^hugo boss deep red 90 ml edp$/,40],[/^hugo boss xx 100 ml edt$/,35],[/^j l scherrer one love 30 ml edp$/,19],[/^lacoste l 12 12 pour elle french panache 50 ml edt$/,30],[/^lacoste pour femme legere 50 ml edp$/,35],[/^lacoste pour femme 50 ml edp$/,35],[/^lanvin arpege 100 ml edp testeur$/,30],[/^lanvin mon eclat d arpege 100 ml edp$/,35],[/^lolita so sweet 50 ml edp testeur$/,30],[/^mauboussin star cherie 90 ml edp$/,35],[/^narciso rodriguez all of me intense 30 ml edp$/,55],[/^narciso rodriguez forever 50 ml edp$/,58],[/^narciso rodriguez radiante 90 ml edp$/,70],[/^nina ricci nina fleur 80 ml edt$/,60],[/^nina ricci premier jour 100 ml edp$/,72],[/^nina ricci nina luna 50 ml edt$/,60],[/^nina ricci love in paris 50 ml edp testeur$/,35],[/^paloma picasso 100 ml edt sans blister$/,40],[/^prada candy night 80 ml edp testeur$/,60],[/^prada candy l eau 20 ml edt$/,22],[/^repetto cristal d eau 50 ml edt$/,25],[/^repetto neroli solaire 50 ml edt$/,25],[/^coffret rochas girl 60 ml edt/,35],[/^rochas byzance 90 ml edp testeur$/,40],[/^viktor ?& ?rolf flower bomb ruby orchid 100 ml edp testeur$/,65],[/^viktor ?& ?rolf flower bomb in the sky edition 50 ml edp$/,55],[/^coffret viktor ?& ?rolf flower bomb tiger lily 50 ml/,64]
+];const normRetail=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’‘'!]/g,' ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();for(const row of seed){const key=normRetail(row[0]);const hint=retailHints.find(([re])=>re.test(key));if(hint)row[1]=String(hint[1])+' €';}const normRupture=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();const ruptureSet=new Set(["les princes du golfe cherry of cashmere 100 ml edp","clarins mini mascara wonder volume couleur black xxl","clarins joli rouge shine teinte 7425","kerastase symbiose masque revitalisant essentiel 200 ml","versace blue jeans 75 ml edt","mont blanc legend 100 ml edt testeur","dolce gabbana pour homme 125 ml edt testeur","hugo boss superman x hugo 125 ml edp testeur","thameen london amber room 50 ml extrait de parfum 1 hair body lotion","thameen london peacock throne 50 ml extrait de parfum 1 hair fragrance","thameen london riviere 50 ml extrait de parfum 1 body lotion 1 hair fragrance","azzaro chrome legend 100 ml edt","hugo boss in motion 100 ml edt testeur","moncler pour homme 100 ml edp testeur","calvin klein ck shock for her 100 ml edt testeur","cartier la panthere 100 ml edt","guess 1981 100 ml edt pour femme","kenzo flower 100 ml edp","casamorati fiore d ulivo 100 ml edp","les princes du golfe citron macaron 100 ml edp","les princes du golfe exquidite pear 100 ml edp","maison fragranza c ur blanc 100 ml edp"]);for(let i=0;i<products.length;i++){products[i].name=seed[i][0];products[i].price=seed[i][1];products[i].category=seed[i][2];if(seed[i][5]!==undefined)products[i].available=seed[i][5]!==false;if(ruptureSet.has(normRupture(products[i].name)))products[i].available=false;}
+const photos=[{match:/kera queen.*trio.*figue/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-figue2.png?v=1770206407'},{match:/kera queen.*trio.*ricin/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-huiledericin_a28685e6-bb7d-4baf-86a4-9a35260d59e5.png?v=1770210314'},{match:/kera queen.*trio.*aloe/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-aloevera.png?v=1770213532'},{match:/kera queen.*trio.*coco/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-coco.png?v=1770205749'},{match:/kera queen.*trio.*amla/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-amla.png?v=1770210113'},{match:/kera queen.*trio.*tanin/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/trio-tanin.png?v=1770206186'},{match:/kera queen.*botox.*1000.*intense|kera queen.*botox.*k[eé]ratine intense 1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/keratineintense-masque1000.jpg?v=1770800567'},{match:/kera queen.*botox.*ail 1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/ail-pack1000-2.jpg?v=1739527802'},{match:/kera queen.*botox.*ricin 1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/ricin-masque1000-1_dabe9254-e6e5-47b8-abcd-4b33905e93bb.jpg?v=1765355551'},{match:/kera queen.*botox.*nigelle 1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/nigel-masque1000.jpg?v=1765355122'},{match:/kera queen.*botox.*figue.*1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/figue-masque1000-1_76912003-9ce9-43e8-9d9b-b71aa3f9c065.jpg?v=1765356085'},{match:/kera queen.*botox.*argan 1000/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/argan-masque1000.png?v=1770807360'},{match:/kera queen.*effet miroir/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/F10DE6A7-C699-4F8E-98F9-C8CA815BDAA4.png?v=1792774269'},{match:/kera queen.*duo.*figue/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/figue-pack500-1.jpg?v=1738832638'},{match:/kera queen.*duo.*nigelle/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/nigel-pack500.jpg?v=1740046038'},{match:/kera queen.*duo.*k[eé]ratine intense/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/keratine-pack500-1.jpg?v=1765273072'},{match:/kera queen.*duo.*argan/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/argan-pack500-1.jpg?v=1767006418'},{match:/kera queen.*duo.*ail/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/ail-pack500.jpg?v=1738832761'},{match:/kera queen.*duo.*ricin/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/ricin-pack500-1.jpg?v=1765272963'},{match:/kera queen.*booster/i,src:'https://cdn.shopify.com/s/files/1/0903/8538/3771/files/Booster1.png?v=1762695510'},{match:/armani lip gloss/i,src:'https://www.armanibeauty.fr/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-armani-master-catalog/default/dw769eb070/images/large/WW-00043-ARM_Lip_Power.jpg'},{match:/montale intense caf[eé]/i,src:'https://www.montaleparfums.com/488-large_default/intense-cafe.jpg'},{match:/moncler 150\s*ml/i,src:'https://www.perfumenz.co.nz/cdn/shop/products/moncler-100ml-edp-men_1200x1200.png?v=1661834202'},{match:/signature aura/i,src:'https://cloud.cazaar.co.uk/signature-sillage-dorient-jade-eau-de-parfum-100ml-edp-15ml-gift-set-fragrance.jpg'},{match:/les princes du golfe (vanilla island|cherry of cashmere|fresh tonka|tutti caramelo)/i,src:'https://odorare.fr/5020-medium_default/exquisite-pear.jpg'},
+{match:/^rp paris eau de foudre/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_EauDeFoudre-pack-couleur01_ba983cd2-d187-4205-989e-8f586249f4e8.jpg?v=1750599421&width=1000'},
+{match:/^rp paris po[eè]me rouge/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_PoemeRouge-pack-couleur01_19bc729d-0cdc-4cd8-a8fe-3b48534a8cd4.jpg?v=1747219649&width=1000'},
+{match:/^rp paris n°?3\b/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Orientalisme-pack-couleur01_d473baf5-8af8-4704-b2c3-a127ef90433d.jpg?v=1747226505&width=1000'},
+{match:/^rp paris n°?4\b/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_OudBulgare-pack-couleur01_5dc824db-00eb-4150-80af-e30061db74d2.jpg?v=1747226108&width=1000'},
+{match:/^rp paris n°?5\b/i,src:'https://rpparfums.fr/cdn/shop/files/690.jpg?v=1746122726&width=600'},
+{match:/^rp paris n°?6\b/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_BaiserDeLaFeve-pack-couleur01_0fe7cf92-f4a7-4630-8f07-6bd81d3975b7.jpg?v=1747251606&width=1000'},
+{match:/^rp paris n°?7\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-n7.jpg'},
+{match:/^rp paris brin de folie/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_BrinDeFolie-pack-couleur01_642b013d-9b7c-4e51-bf7c-85301c2f7df7.jpg?v=1747256316&width=1000'},
+{match:/^rp paris n°?9\b/i,src:'https://rpparfums.fr/cdn/shop/products/654.jpg?v=1707512365&width=600'},
+{match:/^rp paris n°?10\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-n10.jpg'},
+{match:/^rp paris n°?11\b/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Arboreal-pack-couleur01_8fde9cda-35af-4a79-bf1b-0fe74cb43fbc.jpg?v=1747250514&width=1000'},
+{match:/^rp paris n°?12\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-12.jpg'},
+{match:/^rp paris n°?13\b/i,src:'https://rpparfums.fr/cdn/shop/files/652.jpg?v=1747167819&width=600'},
+{match:/^rp paris n°?14\b/i,src:'https://rpparfums.fr/cdn/shop/files/651.jpg?v=1747167836&width=600'},
+{match:/^rp paris n°?15\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-15.jpg'},
+{match:/^rp paris joyaux d’orient/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_JoyauxDorient-pack-couleur01_8ffb513a-77d2-410a-966e-81a198ea1644.jpg?v=1747343835&width=1000'},
+{match:/^rp paris n°?18\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-18.jpg'},
+{match:/^rp paris n°?19\b/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_NeoOud-pack-couleur01_07e32ad5-5628-44c9-8027-9f71c73e9b6c.jpg?v=1750599429&width=1000'},
+{match:/^rp paris n°?20\b/i,src:'https://rpparfums.fr/cdn/shop/files/686.jpg?v=1746122842&width=600'},
+{match:/^rp paris n°?21\b/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-prive-n21.jpg'},
+{match:/^rp paris musc blanc/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_MuscBlanc-pack-couleur01_569c1ced-5f7a-429c-b3a0-9d1d3f9a5bf0.jpg?v=1747389389&width=1000'},
+{match:/^rp paris fleur du nil/i,src:'https://rpparfums.fr/cdn/shop/files/669.jpg?v=1746124367&width=600'},
+{match:/^rp paris d[eé]licieuse/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Delicieuse-pack-couleur01_b7548cca-68f5-4090-816e-117475610bd9.jpg?v=1747261957&width=1000'},
+{match:/^rp paris sunset/i,src:'https://rpparfums.fr/cdn/shop/files/671.jpg?v=1746124300&width=600'},
+{match:/^rp paris fabuleux/i,src:'https://rpparfums.fr/cdn/shop/files/670.jpg?v=1746124335&width=600'},
+{match:/^rp paris azzura/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Azzura-pack-couleur01_5d302e1f-9d5c-49d8-a504-19aa5b353ade.jpg?v=1747250813&width=1000'},
+{match:/^rp paris bella/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Bella-pack_bba20f53-44bb-4229-aedd-f04e5b789d48.jpg?v=1750599420&width=1000'},
+{match:/^rp paris rouge paris/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_RougeParis-pack-couleur01_2f95ce31-0226-4cd3-b036-10dee9370e1f.jpg?v=1750599497&width=1000'},
+{match:/^rp paris santal rouge/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_SantalRouge-pack-couleur01_0b361f9f-6c9b-4ee3-859c-a6cbeec52b6b.jpg?v=1750599513&width=1000'},
+{match:/^rp paris majestic/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Majestic-pack_97c097a1-3475-446c-ac57-9458d80e85ba.jpg?v=1750599506&width=1000'},
+{match:/^rp paris jasmin de nuit/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_JasminDeNuit-pack-couleur01_fb6e8db6-50dd-4232-8d38-0c1dec96ec39.jpg?v=1750599501&width=1000'},
+{match:/^rp paris malachite/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_Malachite-pack-couleur01_a9831a4d-3e32-45c6-a10d-e0dd0ef0bcdf.jpg?v=1750599507&width=1000'},
+{match:/^rp paris soleil d’arabie/i,src:'https://rpparfums.fr/cdn/shop/files/680.jpg?v=1746123552&width=600'},
+{match:/^rp paris velours noirs?/i,src:'https://luxurious-fragrances.com/wp-content/uploads/2025/08/parfum-rp-paris-velours-noir.jpg'},
+{match:/^rp paris rose cerise/i,src:'https://rpparfums.fr/cdn/shop/files/683.jpg?v=1746123455&width=600'},
+{match:/^rp paris sicilian bergamot/i,src:'https://rpparfums.fr/cdn/shop/files/679.jpg?v=1746123587&width=600'},
+{match:/^rp paris so oud/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_SweetOud-pack_14df096b-eb2b-4f9d-8192-06bd46ffa6d1.jpg?v=1750599517&width=1000'},
+{match:/^rp paris vie de r[eê]ve/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_VieDeReve-pack-couleur01_62d50d71-ff4d-44f8-b35c-5669b1f4bc28.jpg?v=1750599518&width=1000'},
+{match:/^rp paris cuir d’italie/i,src:'https://rpparfums.fr/cdn/shop/products/657.jpg?v=1707512338&width=600'},
+{match:/^rp paris orchid blanc/i,src:'https://rpparfums.fr/cdn/shop/files/649.jpg?v=1747167870&width=600'},
+{match:/^rp paris purple money/i,src:'https://rpparfums.fr/cdn/shop/files/648.jpg?v=1747167901&width=600'},
+{match:/^rp paris sucre noir/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Parfums-mixtes_SucreNoir-pack_a6795592-93cf-42bf-8f3b-7048b481c7e6.jpg?v=1747214639&width=1000'},
+{match:/^her confession/i,src:'https://dxbperfume.co.uk/cdn/shop/files/herconfession2.jpg?v=1737375735&width=1400'},
+{match:/^asad elixir/i,src:'https://www.kiyobeauty.com/cdn/shop/files/Screenshot_2025-12-18_at_15.38.38_grande.png?v=1766072446'},
+{match:/^eclaire\b/i,src:'https://marsvenusparfum.de/cdn/shop/files/Eclaire_Lattafa_100ml.png?v=1771332351&width=1024'},
+{match:/^fakhar gold/i,src:'https://www.beautycoiffure.com/269798-large_default/lattafa-fakhar-gold-eau-de-parfum-100ml.jpg'},
+{match:/^angham 100 ml/i,src:'https://theperfumeclub.pk/cdn/shop/files/Angham_Lattafa_Perfumes_for_women_and_men.png?v=1775723341'},
+{match:/^ameerat al arab sugar crown/i,src:'https://www.lattafa-usa.com/cdn/shop/files/SugarCrownBottle.png?v=1779996924'},
+{match:/^gulf orchid meydan/i,src:'https://theluxeaurasa.co.za/cdn/shop/files/MEYDAN.jpg?v=1764928799&width=1400'},
+{match:/^gulf orchid hikma/i,src:'https://shop-gulforchid.com/cdn/shop/files/Gulf_Orchid_Hikma_EDP_OmbreNomadedupe..jpg?v=1750078417&width=1946'},
+{match:/^gulf orchid pomegranate musk collection/i,src:'https://zaoud.it/cdn/shop/files/gulf-orchid-POMEGRANATE-perfume-bottle-against-white-background.jpg?v=1728850234&width=1946'},
+{match:/french avenue aether/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.94702.jpg'},
+{match:/french avenue azzure aoud/i,src:'https://lamilas.com.au/cdn/shop/files/Azzure-Aoud-French-Avenue.png?v=1755232275&width=2000'},
+{match:/french avenue haydan/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.101173.2x.jpg'},
+{match:/french avenue paradigm/i,src:'https://discoverydecants.com/cdn/shop/files/FWParadigm.png?v=1738123582'},
+{match:/french avenue pierce/i,src:'https://witr.com.au/cdn/shop/files/pierce_1.jpg?v=1755497601&width=2048'},
+{match:/french avenue pinnace oryn/i,src:'https://olvio.co.uk/cdn/shop/files/pinnace-oryn-100ml-edp-by-french-avenue.jpg?v=1776959536'},
+{match:/french avenue pinnace/i,src:'https://www.boozyshop.de/cdn/shop/files/french-avenue-pinnace-eau-de-parfum-69146273972607.webp?v=1767097981'},
+{match:/loui?s martin attirer.{0,2}r[eê]ves/i,src:'https://pds-shop.fr/cdn/shop/files/Extrait_de_Parfum_Attirer-R_ves_Loui_Martin_100_ML_-_PDS_SHOP.jpg?v=1776514085'},
+{match:/loui?s martin bois.{0,3}emperor/i,src:'https://panierexpress.fr/cdn/shop/files/loui-martin-bois-de-emperor-100ml.jpg?v=1760184394&width=1445'},
+{match:/loui?s martin city of dreams/i,src:'https://sykz.fr/cdn/shop/files/out_3d77f375-7ddb-4056-9ace-5496609d555d.png?v=1775472541'},
+{match:/loui?s martin candy dream/i,src:'https://houseofniche.nl/cdn/shop/files/Loui_Martin_Candy_Dream.webp?v=1751475454&width=1445'},
+{match:/loui?s martin ombre r[eê]vante/i,src:'https://bellayaa.com/cdn/shop/files/95925B4D-742D-4865-A416-D3357391DEB7.jpg?v=1766596120'},
+{match:/loui?s martin stella r[eê]ve/i,src:'https://sykz.fr/cdn/shop/files/Frame_193_7_bdd1d0d8-f9ec-4a4c-80cc-cc761a6ef8ab1.png?v=1775473242'},
+{match:/kenzie amber lychee/i,src:'https://cosmechic.fr/44469-inno_default/eau-de-parfum-kenzie-amber-lychee.jpg'},
+{match:/kenzie apple crush/i,src:'https://bplatz.de/cdn/shop/files/KenzieExoticAppleCrush100ml2.webp?v=1765534620&width=1100'},
+{match:/kenzie candid vanilla/i,src:'https://volareperfumes.com/cdn/shop/files/Volare_Kenzie_Candid_Vanilla_2.jpg?v=1751547847'},
+{match:/kenzie classic pistachio/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/volare-kenzie-classic-pistachio_1743x1743.png?v=1751496499'},
+{match:/kenzie irish vanilla/i,src:'https://zkstore24.com/cdn/shop/files/kenzieirishvanilla.jpg?v=1739455956&width=2048'},
+{match:/kenzie lemon spark/i,src:'https://grossiste-elite.com/cdn/shop/files/kenzie-lemon-spark-volare-100ml-eau-de-parfum-femme-grossiste-elite-506.webp?v=1777900755'},
+{match:/kenzie marshmallow/i,src:'https://volareperfumes.com/cdn/shop/files/VolKenzieMarshmallowDream.jpg?v=1745049605&width=2200'},
+{match:/kenzie silk serenity/i,src:'https://parfumeriedebabi.com/cdn/shop/files/p1767826964_2.jpg?v=1779806248&width=640'},
+{match:/kenzie summer bottled/i,src:'https://muscorient.com/2045-medium_default/kenzie-summer-bottled-volare.jpg'},
+{match:/kenzie vanilla 70/i,src:'https://muscorient.com/1876-medium_default/kenzie-vanilla-70-volare.jpg'},
+{match:/kenzie water ?melon/i,src:'https://volareperfumes.com/cdn/shop/files/Kenzie_Watermelon_On_Ice_1.jpg?v=1767347013'},
+{match:/loui?s martin attirer.{0,2}r[eê]ves/i,src:'https://pds-shop.fr/cdn/shop/files/Extrait_de_Parfum_Attirer-R_ves_Loui_Martin_100_ML_-_PDS_SHOP.jpg?v=1776514085'},
+{match:/loui?s martin bois.{0,3}emperor/i,src:'https://panierexpress.fr/cdn/shop/files/loui-martin-bois-de-emperor-100ml.jpg?v=1760184394&width=1445'},
+{match:/loui?s martin city of dreams/i,src:'https://sykz.fr/cdn/shop/files/out_3d77f375-7ddb-4056-9ace-5496609d555d.png?v=1775472541'},
+{match:/loui?s martin candy dream/i,src:'https://houseofniche.nl/cdn/shop/files/Loui_Martin_Candy_Dream.webp?v=1751475454&width=1445'},
+{match:/loui?s martin ombre r[eê]vante/i,src:'https://bellayaa.com/cdn/shop/files/95925B4D-742D-4865-A416-D3357391DEB7.jpg?v=1766596120'},
+{match:/loui?s martin stella r[eê]ve/i,src:'https://sykz.fr/cdn/shop/files/Frame_193_7_bdd1d0d8-f9ec-4a4c-80cc-cc761a6ef8ab1.png?v=1775473242'},
+{match:/gulf orchid baklava bite/i,src:'https://shop-gulforchid.com/cdn/shop/files/Baklava_Bite_Gulf_Orchid_Perfume_White_Background.jpg?v=1752498521&width=1946'},
+{match:/gulf orchid al qasr dahab/i,src:'https://shop-gulforchid.com/cdn/shop/files/Al_Qasar_Dahab_Gulf_Orchid_Perfume_White_Background_With_Box.jpg?v=1758191225&width=1946'},
+{match:/gulf orchid al qasr/i,src:'https://shop-gulforchid.com/cdn/shop/files/Al_Qasar_Gulf_Orchid_Perfume_White_Background_With_Box.jpg?v=1758191239&width=1946'},
+{match:/gulf orchid banana split/i,src:'https://shop-gulforchid.com/cdn/shop/files/Banana_Split_Gulf_Orchid_Perfume_White_Background.jpg?v=1750406280&width=1946'},
+{match:/gulf orchid cookie bite/i,src:'https://shop-gulforchid.com/cdn/shop/files/Cookie_Bite_Gulf_Orchid_Perfume_White_Background.jpg?v=1752498521&width=1946'},
+{match:/gulf orchid candy bite/i,src:'https://shop-gulforchid.com/cdn/shop/files/Candy_BIte_Gulf_Orchid_Perfume_White_Background.jpg?v=1752498521&width=1946'},
+{match:/gulf orchid mango ice/i,src:'https://cdn.notinoimg.com/detail_main_mq/gulf_orchid/6290362162629_01-o/mango-ice___260206.jpg'},
+{match:/gulf orchid vanilla latte/i,src:'https://www.gold-fragrance.com/cdn/shop/files/209FFFAA-00DE-4B2A-8143-5BEABE8CA013.png?v=1748998932'},
+{match:/gulf orchid sweet heaven extreme/i,src:'https://cdn11.bigcommerce.com/s-d75m9rit2s/images/stencil/640x640/products/22588/4452542/6291107019741-2_1__14152.1774319697.jpg?c=1'},
+{match:/gulf orchid sweet heaven/i,src:'https://perfumeoriental.com/cdn/shop/files/sweet-heaven-edp-100ml-gulf-orchid.webp?v=1766498712&width=416'},
+{match:/gulf orchid coco blanco/i,src:'https://shop-gulforchid.com/cdn/shop/files/Coco_Blanco_Gulf_Orchid_Perfume_White_Background.jpg?crop=center&height=2048&v=1750406252&width=2048'},
+{match:/gulf orchid moonlight/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.95653.2x.jpg'},
+{match:/gulf orchid musk n.?33/i,src:'https://cdnintl2.primor.eu/media/catalog/product/6/2/6291107019673_1_5cfa.png'},
+{match:/afnan 9am/i,src:'https://pk.afnan.com/cdn/shop/files/9AM-Product-01.jpg?v=1753267536&width=2048'},
+{match:/al jefri jasmine/i,src:'https://cdn.salla.sa/brdyz/eSFFuOG3Ghz42Iu1NhAzG6aPv1XZf8YK9rD2muOn.png'},
+{match:/rasasi hawas 100/i,src:'https://f.nooncdn.com/p/pnsku/N11203011A/45/_/1767607780/76f33fc5-706a-4c09-bc44-5d9d891d83ed.jpg?width=800'},
+{match:/swiss arabian shaghaf 75/i,src:'https://us.swissarabian.com/cdn/shop/files/SAP_SHAGAF-WOMEN_50b9eff9-d891-44cd-b5a5-18d762138fa7_1024x1024.png?v=1767766194'},
+{match:/taskeen caramel cascade/i,src:'https://www.gold-fragrance.com/cdn/shop/files/paris-corner-oriental-collection-taskeen-caramel-cascade-eau-de-parfum-pour-femme___240830_535x.webp?v=1736340242'},
+{match:/khair pistachio/i,src:'https://www.ninurtacr.com/cdn/shop/files/Paris-Corner-Khair-Pistachio-EDP-de-100-ml-para-Mujer.jpg?v=1759417791'},
+{match:/qissa delicious/i,src:'https://ajeeb.net/cdn/shop/files/qissa-delicious-paris-corner-100-ml_11221_1200x1200.webp?v=1738677597'},
+{match:/khamrah dukhan/i,src:'https://www.theperfumestation.co.uk/images/gallery_image/1748864578_02.webp'},
+{match:/\b(yara 50 ml|yara$)/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg'},
+{match:/khamrah qahwa/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.111265.jpg'},
+{match:/\bkhamrah\b/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.75805.jpg'},
+{match:/^asad \(le noir/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.72821.jpg'},
+{match:/^eclair\b/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.93628.jpg'},
+{match:/nebras/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.78560.jpg'},
+{match:/qaed al fursan unlimited/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.82590.jpg'},
+{match:/qaed al fursan/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.67996.jpg'},
+{match:/mayar 100 ml/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.84309.jpg'},
+{match:/fakhar noir/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.70465.jpg'},
+{match:/\bhaya\b/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.85031.jpg'},
+{match:/hugo boss energise 75/i,src:'https://kasy.bg/11079-large_default/hugo-boss-hugo-energise-eau-de-toilette-for-men.jpg'},
+{match:/the woods collection bloom 100/i,src:'https://belodore.rs/media/amasty/amoptmobile/catalog/product/cache/08cd9d1a69d3b81aa4ac293076519bc7/T/W/TWC63857-2-The_Woods_Collection_Natural_Bloom_100ml_EDP_1_1_jpg.webp'},
+{match:/zadig.*this is him.*vibes of freedom 100/i,src:'https://media.douglas.hr/media/image/85/b6/4e/ZV048358_1_1280x1280%402x.jpg'},
+{match:/burberry brit for her 100/i,src:'https://assets.burberry.com/is/image/Burberryltd/4B7D91DF-2BC0-4487-843E-07CF3615F7D3?$BBY_V3_SL_1$=&hei=1500&wid=1501'},
+{match:/mercedes woman pop edition 90/i,src:'https://www.monarca.com.py/cdn/shop/files/WhatsAppImage2024-10-13at10.51.31AM.jpg?v=1728841246&width=1946'},
+{match:/coffret rochas girl 60/i,src:'https://cdn.notinoimg.com/detail_main_mq/rochas/3386460133647_01-o/girl___241021.jpg'},
+{match:/victor.*flower bomb ruby orchid 100/i,src:'https://www.parfuem365.de/media/image/b9/f7/b0/3614273622639.jpg'},
+{match:/victor.*flower bomb in the sky.*50/i,src:'https://cdn2.jomashop.com/media/catalog/product/v/i/viktor-rolf-ladies-flowerbomb-in-the-sky-edp-spray-17-oz-fragrances-3614273067881.jpg'},
+{match:/coffret victor.*flower bomb tiger lily 50/i,src:'https://images.ctchealth.ca/Viktor___Rolf_Flowerbomb_Tiger_Lily_Eau_de_Parfum_Gift_Set___50mL_Bottle___10mL_Travel_Spray_3614274308082_2.webp'},
+{match:/les princes du golfe exquidite pear 100/i,src:'https://odorare.fr/5020-medium_default/exquisite-pear.jpg'},
+{match:/collection martil 1000 excuses 100/i,src:'https://fragrancepassion.fr/cdn/shop/files/1000-excuses-1229x1536_6fefcb01-ae59-445c-af63-d2805821d956.jpg?v=1762269080'},
+{match:/davidoff cool water night dive gel douche/i,src:'https://pharmacyloreto.com/image/cache/products/278424-735x735.jpg'},
+{match:/davidoff cool water night dive lait.*corps/i,src:'https://fr.vesira.net/media/catalog/product/cache/8/image/650x/040ec09b1e35df139433887a97daa66f/8/4/846.jpg'},
+{match:/mauboussin.*200 ml/i,src:'https://kvepalusala.lt/images/products/JKyh7ANJx0H24aIG20240406124337.jpg'},
+{match:/nars couleur n.?133 too hot/i,src:'https://store.yohohongkong.com/mkp/gallery/goods/images/426_128058_88658018.png'},
+{match:/nocib[eé] mascara noir/i,src:'https://media.nocibe.fr/medias/BWro8t1096718-0-ncb-FR.jpg?imPolicy=grayScaled'},
+{match:/sac a dos leger hugo boss/i,src:'https://images.hugoboss.com/is/image/boss/hbna50536103_001_200?%24large%24=&align=1%2C1&fit=crop%2C1&lastModified=1744304308000&op_sharpen=1&qlt=80&resMode=sharp2&wid=450'},
+{match:/maison fragranza blvd haussman 100/i,src:'https://pds-shop.fr/cdn/shop/files/Eau_de_Parfum_BLVD_Haussmann_Fragranza_Paris_100_ML_-_PDS_SHOP.jpg?v=1767536148'},
+{match:/nina ricci nina collectore 80/i,src:'https://dam.elcorteingles.es/producto/www-001013521293293-01.jpg'},
+{match:/armani acqua digioa 150/i,src:'https://media.falabella.com/falabellaCL/12567179_1/public'},
+{match:/lolita la pomme edition limite 100/i,src:'https://i.ebayimg.com/images/g/4pgAAeSwtz5oosdt/s-l1200.jpg'},
+{match:/mont ?blanc legend blue 50/i,src:'https://discountstore.pk/cdn/shop/files/61EXdBECPML.jpg?v=1729680667'},
+{match:/mont ?blanc legend red 50/i,src:'https://www.caretobeauty.com/media/catalog/product/cache/global/image/85e4522595efc69f496374d01ef2bf13/m/o/montblanc-legend-red-eau-de-parfum-50ml_1.jpg'},
+{match:/dolce.*gabb.*pour homme 125/i,src:'https://www.sevil.com.tr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/3/737052074450_2_1.jpg'},
+{match:/hugo boss xy 100/i,src:'https://crcosmetica.com/cdn/shop/files/s-l1200_5_26c37096-3fea-4b2f-945b-8f9239b976c0.jpg?v=1751588140&width=1946'},
+{match:/thameen london amber room/i,src:'https://www.myperfumeshop.com.au/cdn/shop/files/thameen-treasure-collection-amber-room-edp-body-lotion-set-gift-set-104786.jpg?v=1728056760&width=2048'},
+{match:/thameen london rivi[eè]re 50/i,src:'https://usa.thameenlondon.com/cdn/shop/products/riviere_bottle_with_box_extrait_de_parfum-scaled_1024x1024%402x.png?v=1663844286'},
+{match:/thameen london peacock throne 50/i,src:'https://www.thameenlondon.com/cdn/shop/products/peacock-throne-extrait-de-parfum-50ml_1200x.jpg'},
+{match:/azzaro chrome legend 100/i,src:'https://img.tatacliq.com/images/i28/437Wx649H/MP000000029243307_437Wx649H_202511201949005.jpeg'},
+{match:/carolina herrera bad boy le parfum 100/i,src:'https://bestperfumesmiami.com/cdn/shop/files/2577594_alt01.webp?v=1713369738'},
+{match:/flavia l.?immersion 100/i,src:'https://fimgs.net/mdimg/perfume/375x500.71026.jpg'},
+{match:/hugo boss energise 75/i,src:'https://www.fragrancex.com/images/products/parent/medium/60990w.jpg'},
+{match:/issey miyake fusion d issey intense 100/i,src:'https://media.falabella.com/falabellaCO/18691858_1/w%3D1500%2Ch%3D1500%2Cfit%3Dcover'},
+{match:/lanvin oxygene 100/i,src:'https://www.chemistwarehouse.ae/cdn/shop/files/1171_2FPRODUCT_IMAGE_2FDA01761625_2FIM15212426.png?v=1758289401&width=800'},
+{match:/mont ?blanc legend blue 50/i,src:'https://discountstore.pk/cdn/shop/files/61EXdBECPML.jpg?v=1729680667'},
+{match:/mugler a.?men stellar 50/i,src:'https://dam.elcorteingles.es/producto/www-001013513516149-01.jpg?height=1200&impolicy=Resize&width=967'},
+{match:/the wood collection bloom 100/i,src:'https://belodore.rs/media/amasty/amoptmobile/catalog/product/cache/08cd9d1a69d3b81aa4ac293076519bc7/T/W/TWC63857-2-The_Woods_Collection_Natural_Bloom_100ml_EDP_1_1_jpg.webp'},
+{match:/spice bomb infrared 50/i,src:'https://cdn.shop-apotheke.com/images/mp/prod/3379626fa76a43e4b752224e7dd16366'},
+{match:/zadig.*this is him.*vibe/i,src:'https://media.douglas.hr/media/image/85/b6/4e/ZV048358_1_1280x1280%402x.jpg'},
+{match:/armani acqua di gioia 150/i,src:'https://www.iciparisxl.nl/medias/sys_master/prd-images/h6e/h0c/10715127087134/prd-front-1000-prd-front-1000.jpg'},
+{match:/burberry brit for her 100/i,src:'https://www.fragrancex.com/images/products/parent/medium/60453w.jpg'},
+{match:/hugo boss orange woman 75/i,src:'https://www.baressoshop.se/48658-large_default/hugo-boss-orange-woman-edt-75-ml-tester.jpg'},
+{match:/clarins mini mascara wonder volume/i,src:'https://www.clarinsusa.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw2c75272f/original/80099349_original_original_A.jpg?sh=680&sw=680'},
+{match:/bareminerals crystalline glow palette/i,src:'https://ballybrackmedicalhall.ie/cdn/shop/files/bare-minerals-crystalline-glow-bronzer-and-highlighter-palette-1.jpg?v=1764688753&width=1200'},
+{match:/charlotte tilbury air brush brightening flawless finish recharge/i,src:'https://www.tjhughes.co.uk/cdn/shop/products/10041170.jpg?v=1692173181'},
+{match:/fresh floral recovery masque/i,src:'https://media.sephora.eu/content/dam/digital/pim/published/F/FRESH/P10023441/70822-media_principal.jpg'},
+{match:/coffret lanc[oô]me advanced g[eé]nifique 10 ml/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/lancome-advanced-genifique-10ml-2pc-set_1200x1200.png?v=1765409431'},
+{match:/clarins joli rouge shine teinte 742/i,src:'https://media.sephora.eu/content/dam/gdam/europe/digital/pim/published/C/CLARINS/664158/331148-media_swatch.jpg?scaleHeight=750&scaleMode=fit&scaleWidth=750'},
+{match:/rochas mademoiselle in black 90/i,src:'https://kosmenia.ma/cdn/shop/files/mademoiselle_rochas_in_black_p_2048x.jpg?v=1706474783'},
+{match:/kerastase symbiose masque revitalisant essentiel 200/i,src:'https://www.capelli24.it/app/uploads/2024/10/Kerastase-Symbiose-Masque.jpg'},
+{match:/versace blue jeans 75/i,src:'https://bonherre.com/cdn/shop/files/versace-blue-jeans-eau-de-toilette-75-ml_1.png?v=1773165569&width=1024'},
+{match:/nina ricci nina collectore 80/i,src:'https://piimages.parfumo.de/8/8/194688_556b4bbec27441adc67bbd474988cad9_nina-collector.jpg'},
+{match:/armani my way floral 50/i,src:'https://assets-cf.armani.com/image/upload/v1749581592/LD504900_NLP_50ML_D_FW2025.jpg'},
+{match:/victor n.?rolf flower bomb in the sky edition 50/i,src:'https://www.perfumeclearancecentre.com.au/cdn/shop/products/Viktor-_-Rolf-Flowerbomb-In-The-Sky-Eau-De-Parfum-50ml.jpg?v=1638705413'},
+{match:/coffret victor.*flower bomb tiger lily 50/i,src:'https://cdn.notinoimg.com/detail_main_mq/viktor-rolf/3614274308082_01/flowerbomb-tiger-lily___241003.jpg'},
+{match:/chopard cedar maliki 80/i,src:'https://media.zid.store/bfaa3454-0e90-4f91-91c7-be4cb1752ac8/121d50ed-768b-4083-a77d-0a7226f96e54.webp'},
+{match:/mauboussin star cherie 90/i,src:'https://is3.makeup.pl/b/ba/baqly7sktwcp.png'},
+{match:/coffret mauboussin a la folie 100/i,src:'https://kvepalusala.lt/images/products/dsRkaHH6Mkb9Up7d20241103010656.jpg'},
+{match:/charlotte tilbury fond de teint air brush flawless foundation 30 ml teinte 10/i,src:'https://images.ctfassets.net/wlke2cbybljx/6r9AGRYDM9bTkeCCDgr302/bf6d700f943855a0d07698a4231796e9/AFF_FOUNDATION_OPEN_10C.png?fit=pad&fm=png&h=512&q=80&w=512'},
+
+{match:/calvin klein eternity for me aromatic essence 100 ml/i,src:'https://image.ceneostatic.pl/data/products/165106629/i-calvin-klein-eternity-for-men-aromatic-essence-woda-perfumowana-100-ml.jpg'},
+{match:/hermes terre hermes eau intense vetiver 100 ml/i,src:'https://assets.hermes.com/is/image/hermesproduct/terre-d-hermes-eau-intense-vetiver-eau-de-parfum--40946-front-wm-1-0-0-800-800_g.jpg'},
+{match:/lanvin eclat d.arpege 100 ml/i,src:'https://static.chemistwarehouse.com.au/ams/media/pi/77391/F2D_800.jpg'},
+{match:/lanvin arpege 100 ml edp/i,src:'https://cdn.notinoimg.com/detail_main_hq/lanvin/3386461515619_02-o/arpege-pour-femme___210121.jpg'},
+
+{match:/boucheron serpent boh[eè]me 90/i,src:'https://www.perfumenz.co.nz/cdn/shop/products/boucheron-serpent-boheme_1024x1024.png?v=1645672613'},
+{match:/jimmy choo rose passion 100/i,src:'https://img.vivantiscdn.net/photos/w600_h600_fN/p/_orig/JC/jimmy-choo-rose-passion-edp_14939079115811.png'},
+{match:/ana[iï]s ana[iï]s 100/i,src:'https://leparfumier.com/cdn/shop/files/awmwlhp3ed0zafpzzruh_94f6caf2-b17d-4822-afb8-84bbd868dc66.jpg?v=1758226230'},
+{match:/ralph lauren polo blue 125/i,src:'https://cdn.awsli.com.br/600x450/1745/1745130/produto/364761540/17-ipkdm4cwbs.jpg'},
+{match:/hugo boss bottled night 100/i,src:'https://i.makeup.uk/c/cs/csmyl3wtyudb.jpg'},
+{match:/mont ?blanc legend 100/i,src:'https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwafede77d/images/hi-res/alternates/PID_alternate1/PID_alternate1_531/P531007_1.jpg'},
+{match:/dolce gabbaana pour homme 125/i,src:'https://www.sevil.com.tr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/3/737052074450_2_1.jpg'},
+{match:/carolina herrera bad boy le parfum 100/i,src:'https://www.e-glamour.pl/data/cache/thumb_min500_max1000-min500_max1000-12/products/312775/1676545463/carolina-herrera-bad-boy-le-parfum-woda-perfumowana-dla-mezczyzn-100-ml-457749.jpg'},
+{match:/davidof[f]? cool water 125/i,src:'https://www.lojaglamourosa.com/resources/medias/shop/products/thumbnails/shop-image-large/shop-pf-00710-03-davidoff-cool-water-men-edt---125ml--1.jpg'},
+{match:/davidof[f]? indigo 60/i,src:'https://www.montrealdutyfree.ca/cdn/shop/files/938389.jpg?v=1755185447&width=2048'},
+{match:/givenchy pi 100/i,src:'https://www.justmylook.com/cdn/shop/files/GIV0003-1.png?format=webp&v=1753445106&width=1404'},
+{match:/mont ?blanc individuel 75/i,src:'https://cdn.salla.sa/dqYz/EzbwJ6MVFz3TgkQTldxO9phEQ8ys3NU3nR3MsOQo.png'},
+{match:/mont ?blanc starwalker 75/i,src:'https://odorem-dz.com/wp-content/uploads/2023/11/1000055367.jpg'},
+{match:/mont ?blanc presence 75/i,src:'https://media.nocibe.fr/medias/ftS9Sq554405-0-global.jpg?context=bWFzdGVyfGltYWdlc3w3ODcwMnxpbWFnZS9qcGVnfGFHVTJMMmhrWVM4Mk5EVTJOemd6TnpRNU1USXpNQzltZEZNNVUzRTFOVFEwTURWZk1GOW5iRzlpWVd3dWFuQm58MDMwYzAwMjRkYmJjOWViODgxZjUyOTk4YzZkMWZmYzY0MzU3N2E0Y2EzMzVlOGY0MzgwOWRhNjkxZjQzYWQyMQ&grid=true&imPolicy=grayScaled'},
+{match:/paco rabanna ultra red man 100/i,src:'https://pro-fra-s3-productsassets.rossmann.pl/product_8_medium/367387_360_350_1782522636.webp'},
+{match:/marc jacob.*daisy dream 100/i,src:'https://abclive1.s3.amazonaws.com/31a7f8a4-c7f7-4d3a-81a6-26f396972754/productimage/P-3607349764241___L.jpg'},
+{match:/victor.*flower bomb ruby orchid 100/i,src:'https://media.falabella.com/falabellaCL/16063649_2/w%3D1500%2Ch%3D1500%2Cfit%3Dcover'},
+{match:/lanc[oô]me clarifique double essence 150/i,src:'https://down-th.img.susercontent.com/file/th-11134207-7rasl-m6f67bqyygon7b'},
+
+{match:/nikos sculpture 100 ml edt/i,src:'https://cdnintl2.primor.eu/media/catalog/product/cache/f3020b7489dcfc4d1d147cf4dad07b7f/4/A/4AM00068_1_3d5a.jpg'},
+{match:/paco rabanne one million royal 200 ml/i,src:'https://www.1000parfums.ch/media/catalog/product/cache/4/image/650x/040ec09b1e35df139433887a97daa66f/p/e/perfume-paco-rabanne-1-million-royal-eau-de-parfum-vapo-200-ml-discount.jpg'},
+{match:/coffret ralph lauren ralph’s club/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/ralphs-club-100ml-set-2pc_1302x1302.png?v=1706127644'},
+{match:/carolina herrera bad boy cobalt 100 ml edp électrique/i,src:'https://www.perfumeplusoutlet.com/cdn/shop/files/36_b30347bc-cef9-4b1e-84a1-1f2836ead03a.jpg?v=1740681249'},
+{match:/issey miyake fusion d’issey intense 100 ml edt/i,src:'https://perfumesbogota.com.co/cdn/shop/files/miyake1_3.png?v=1780676303&width=416'},
+{match:/lagerfeld classic grey 100 ml edt/i,src:'https://media.falabella.com/falabellaPE/20241967_001/w%3D800%2Ch%3D800%2Cfit%3Dpad'},
+{match:/cerruti 1881 saumon 100 ml edt/i,src:'https://depozituldecosmetice.ro/media/catalog/product/cache/8e14bcb116b666a3495a948a19edf64c/c/e/cerruti_cerruti_1881_women_apa_de_toaleta_100ml.jpg'},
+{match:/prada candy night 80 ml edp/i,src:'https://www.prada.com/content/dam/pradanux_products/1/1A0/1A0448/ZX2F0Z99/1A0448_ZX2_F0Z99_SLD.png'},
+{match:/rochas byzance 90 ml edp/i,src:'https://p1.akcdn.net/full/750343962.rochas-byzance-2019-edp-90-ml.jpg'},
+{match:/hugo boss the scent for her 50 ml edt/i,src:'https://down-br.img.susercontent.com/file/sg-11134201-7r9bi-ln7udztrtit496'},
+{match:new RegExp("Jimmy Choo L’Eau 90 ml EDT",'i'),src:"https://www.cdiscount.com/pdt2/8/6/8/1/700x700/jim3386460073868/rw/jimmy-choo-l-eau-edt-90ml.jpg"},
+{match:new RegExp("Baldessarini Le Classic 75 ml EDC",'i'),src:"https://baldessarini-fragrances.com/cdn/shop/files/Baldessarini_Classic_EDC_75ml_Flacon_Box_view1_4011700902033.png?v=1742214060&width=2160"},
+{match:new RegExp("Calvin Klein CK One 100 ml EDT",'i'),src:"https://skydutyfree.ru/upload/kodix.main/resize_cache/2000_2000_1/31f5421bfca6805a7bf8d4ebcf17100e.jpg"},
+{match:new RegExp("Calvin Klein Eternity Men 100 ml EDT",'i'),src:"https://buyperfumeinbangladesh.com/wp-content/uploads/2017/10/Calvin-Klein-CK-Eternity-EDT-For-Men-100ml-Bottle.png"},
+{match:new RegExp("Calvin Klein CK Everyone 50 ml EDT",'i'),src:"https://napy.com.py/userfiles/images/productos/600/3614229656138-Calvin-Klein-Perfume-Everyone-50ml.png"},
+{match:new RegExp("Calvin Klein CK Free 100 ml EDT",'i'),src:"https://cdn.sheeel.com/catalog/product/cache/074f467fdf747a38ab5e8f88243fd86f/1/0/100ml-ck-free-en.jpg"},
+{match:new RegExp("Carolina Herrera Bad Boy Cobalt 100 ml EDP Elixir",'i'),src:"https://assets.myntassets.com/assets/images/28643982/2024/4/5/ea51243d-f043-4329-a87b-516ea2e8ff681712300180290FreeGiftsCliniqueUnisexFreeGiftsCliniqueUnisexFreeGiftsClini2.jpg"},
+{match:new RegExp("Carolina Herrera Bad Boy Cobalt Absolue 100 ml EDP",'i'),src:"https://hrd-live.cdn.scayle.cloud/images/6f8b0e358772fb942e0f4e07c220f6bf.jpg?bg=ffffff&brightness=1&height=1230&quality=75&width=922"},
+{match:new RegExp("Carolina Herrera Bad Boy Le Parfum 100 ml",'i'),src:"https://bestperfumesmiami.com/cdn/shop/files/2577594_alt01.webp?v=1713369738"},
+{match:new RegExp("Carolina Herrera Bad Boy 100 ml EDT",'i'),src:"https://www.estasiprofumerie.it/114660-large_default/bad-boy.jpg"},
+{match:new RegExp("Carolina Herrera Bad Boy Power Up Sprays 100 ml EDT",'i'),src:"https://images.tcdn.com.br/img/img_prod/1255763/carolina_herrera_bad_boy_power_100ml_77_5_0bda29995d816b1bb24b171ef3b7a03e.jpg"},
+{match:new RegExp("Davidoff Cool Water 125 ml EDT",'i'),src:"https://disfragancias.com/cdn/shop/files/Coolwater_large.jpg?v=1705179983"},
+{match:new RegExp("Davidoff Indigo 60 ml EDT",'i'),src:"https://d1kvfoyrif6wzg.cloudfront.net/assets/images/655/60238/none_0f99a62e25255df5b2cf1af32f7cb5b0_0f99a62.JPEG"},
+{match:new RegExp("Dsquared2 Wood 2 100 ml EDT",'i'),src:"https://www.profumeriamancino.com/13752-large_default/dsquared2-2-wood-eau-de-toilette.jpg"},
+{match:new RegExp("Dolce & Gabbana Devotion 100 ml EDP",'i'),src:"https://www.lojaglamourosa.com/resources/medias/shop/products/thumbnails/shop-image-large/shop-pf-03818-03-devotion-edp---100ml--1.jpg"},
+{match:new RegExp("Gucci Guilty 90 ml EDP",'i'),src:"https://luca.qa/cdn/shop/files/Gucci_Guility_Pour_Femme_90_ML_EDP_1000x.png?v=1771181539"},
+{match:new RegExp("Gucci Guilty 90 ml EDT",'i'),src:"https://www.ofertaperfumes.cl/cdn/shop/files/a295132f-8ebd-48d8-bf2a-39c8df9b0e0e-perfumes_para_subir_pag_-_2022-11-29t160118811.png?v=1776911323"},
+{match:new RegExp("Gucci Guilty Essence 90 ml EDT",'i'),src:"https://media.ulta.com/i/ulta/2628117_alt01?fmt=auto&h=600&w=600"},
+{match:new RegExp("Gucci Guilty Absolu de Parfum 60 ml",'i'),src:"https://images.prod.ecom.mueller.de/_next/image/?q=75&url=https%3A%2F%2Fstatic.prod.ecom.mueller.de%2Fproducts%2F3616305931160%2F3616305931160.jpeg&w=2880"},
+{match:new RegExp("Hermès H24 100 ml EDT",'i'),src:"https://media.cdn.kaufland.de/product-images/1024x1024/ca6d7819c66c1c4b646f0bdc9f9a310d.jpg"},
+{match:new RegExp("Hermès Terre d’Hermès Eau Intense Vétiver 100 ml EDP",'i'),src:"https://www.perfumenetwork.in/cdn/shop/files/9Untitleddesign_f36eca92-da3c-4e0a-9631-dde5a8d69643_2048x.png?v=1705745748"},
+{match:new RegExp("Hugo Boss Selection 100 ml EDT",'i'),src:"https://silkperfumes.cl/cdn/shop/products/hugo-boss-selection-edt-100-ml-Silk-Perfumes.jpg?v=1758830934&width=1214"},
+{match:new RegExp("Hugo Boss In Motion 100 ml EDT",'i'),src:"https://luxefragrances.com.au/cdn/shop/files/14127570157598.jpg_response-content-disposition_inline_filename_COTY-99350065712-1__95379.1745301751.1280.1280.jpg?v=1749019776"},
+{match:new RegExp("Hugo Boss Orange Man 100 ml EDT",'i'),src:"https://alfatah.pk/cdn/shop/files/AFP-000439309-1000.png?v=1691764728"},
+{match:new RegExp("Hugo Boss Iced 75 ml EDT",'i'),src:"https://cdn.salla.sa/cXqNFRXmhxcjZQayFrbarJaX4WnyU3MAHxl9x51A.png"},
+{match:new RegExp("Issey Miyake L’Eau d’Issey Intense 125 ml EDT",'i'),src:"https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/140196/337957/61URQcGGiJS._SL1500___04416.1671432126.jpg?c=1&imbypass=on"},
+{match:new RegExp("Lanvin Éclat d’Arpège 100 ml EDT",'i'),src:"https://basket-01.wbbasket.ru/vol130/part13094/13094186/images/big/1.webp"},
+{match:new RegExp("Mercedes Select 100 ml EDT",'i'),src:"https://perfumedaddy.pk/cdn/shop/files/Mercedes-Benz_Select_Eau_de_Toilette_100ml.jpg?v=1775421747"},
+{match:new RegExp("Mercedes Club 100 ml EDT",'i'),src:"https://bornfragrance.ae/cdn/shop/files/MercedesBenzClubEauDeToilette100mlforMen.jpg?crop=center&height=1200&v=1742169843&width=1200"},
+{match:new RegExp("Moncler Pour Homme 100 ml EDP",'i'),src:"https://www.perfumenz.co.nz/cdn/shop/products/moncler-100ml-edp-men_1200x1200.png?v=1661834202"},
+{match:new RegExp("Montblanc Individuel 75 ml EDT",'i'),src:"https://parisiennerepublic.com/web/product/big/easycosmetic/12134.png"},
+{match:new RegExp("Montblanc Starwalker 75 ml EDT",'i'),src:"https://boberck.cl/cdn/shop/files/Starwalker-75-ML-EDT-Hombre-Montblanc-TESTER_1024x_60c26d41-750d-4341-ad5e-280ab372994c.webp?v=1703091699&width=1445"},
+{match:new RegExp("Montblanc Presence 75 ml EDT",'i'),src:"https://boutiquederoyal.com/cdn/shop/files/2_70c53402-43b9-4cfa-bfe8-9da02b8ea422_1800x1800.jpg?v=1752324110"},
+{match:new RegExp("Nikos Sculpture 100 ml EDT",'i'),src:"https://static01.galaxus.com/productimages/8/7/5/9/9/1/1/8/5/6/0/0/6/7/5/9/2/2/0/a3feb371-0dcd-4774-8f50-5792afe4df1b_cropped.png_720.jpeg"},
+{match:new RegExp("Paco Rabanne Ultra Red Man 100 ml EDT",'i'),src:"https://www.enovaglobal.co.uk/wp-content/uploads/2022/09/Ultrared-Man-by-PACO-RABANNE.png"},
+{match:new RegExp("Versace L’Homme 100 ml EDT",'i'),src:"https://beautytribe.com/cdn/shop/files/versace-lhomme-eau-de-toilette-100ml-115533-637864.png?v=1732794420&width=1500"},
+{match:new RegExp("Zadig & Voltaire This Is Him! Vibes of Freedom 100 ml EDT",'i'),src:"https://media.douglas.hr/media/image/85/b6/4e/ZV048358_1_1280x1280%402x.jpg"},
+{match:new RegExp("Armani Sì Passione Éclat 100 ml EDP",'i'),src:"https://mopani.co.za/cdn/shop/products/263927.jpg?v=1661152379"},
+{match:new RegExp("Burberry Weekend 100 ml EDP",'i'),src:"https://www.perfume24x7.com/cdn/shop/products/burberryweekend.jpg?v=1640164622&width=720"},
+{match:new RegExp("Calvin Klein Eternity for Women 100 ml EDP",'i'),src:"https://media.falabella.com/falabellaPE/16754588_001/w%3D1500%2Ch%3D1500%2Cfit%3Dcover"},
+{match:new RegExp("Calvin Klein CKIN2U for Her 100 ml EDT",'i'),src:"https://cdn.taw9eel.com/media/catalog/product/cache/1/image/519x/9df78eab33525d08d6e5fb8d27136e95/m/a/mafa771-14.jpg"},
+{match:new RegExp("Calvin Klein CK Shock for Her 100 ml EDT",'i'),src:"https://www.eliteperfumes.cl/cdn/shop/products/calvin-klein-calvin-klein-ck-one-shock-her-edt-100-ml-m-15128456429604.png?v=1627994472&width=1214"},
+{match:new RegExp("Calvin Klein Sheer Beauty 100 ml EDT",'i'),src:"https://cdn.taw9eel.com/media/catalog/product/cache/1/image/519x/9df78eab33525d08d6e5fb8d27136e95/a/a/aaac1798-1.jpg"},
+{match:new RegExp("Chloé Love Story 75 ml EDP",'i'),src:"https://cdn.beymen.com/mnresize/505/704/productimages/rztckvwt.hed_MP_583c9d20-3c9b-4669-8613-a21c7b134a67_1_65425291423512432790194238204_209.jpg"},
+{match:new RegExp("Courrèges Eau de Courrèges 90 ml EDT",'i'),src:"https://i.makeupstore.de/g/gc/gcvyafej3fu1.jpg"},
+{match:new RegExp("Courrèges Rose de Courrèges 90 ml EDP",'i'),src:"https://allparfume.by/images/parfumes/courreges_rose_de_courreges.jpg"},
+{match:new RegExp("Dolce & Gabbana The One Gold 75 ml EDP intense",'i'),src:"https://media.nocibe.fr/medias/sLZjzC1163938-1-ncb-FR.jpg?context=bWFzdGVyfGltYWdlc3wxNTYzMTB8aW1hZ2UvanBlZ3xhR0V5TDJnMU5TODFNVGN4T0RrMk9EQTRNalEyTWk5elRGcHFla014TVRZek9UTTRYekZmYm1OaUxVWlNMbXB3Wnd8MGJjNDQ2ODU0ZDE1ZGYxMmRmNWZiOWUxYjExZmE0MWIzMWIwNWUxMzk5NjM4NGY5ZmY1MTYwYjY3ZWNhYWVlZg&grid=true"},
+{match:new RegExp("Escada Celebrates N\\.O\\.W 80 ml EDP",'i'),src:"https://dscentsation.ng/cdn/shop/products/EscadaCelebrateNow80mlEDPSpray-PerfumeforWomen-D_Scentsation.jpg?v=1633248556"},
+{match:new RegExp("Givenchy Ange ou Démon 100 ml EDP",'i'),src:"https://media.falabella.com/falabellaPE/11207281_001/w%3D1004%2Ch%3D1500%2Cfit%3Dpad"},
+{match:new RegExp("Grès Cabotine Rose 100 ml EDT",'i'),src:"https://resources.claroshop.com/medios-plazavip/mkt/62ed951bc054d_mcabrjpg.jpg"},
+{match:new RegExp("Gucci Bamboo 75 ml EDP",'i'),src:"https://alfatah.pk/cdn/shop/files/NewProject_29_249d67d0-6c01-4d9f-a5d9-f2c7d183c5a4.png?v=1691767382"},
+{match:new RegExp("Gucci Bloom 100 ml EDT",'i'),src:"https://www.pontocom.com/img/g/IMG_877930_1.JPG?v=1789731931"},
+{match:new RegExp("Gucci Bloom Profumo di Fiori 100 ml EDP",'i'),src:"https://media.falabella.com/falabellaCO/50016783_1/w%3D1500%2Ch%3D1500%2Cfit%3Dcover"},
+{match:new RegExp("Gucci Bamboo 75 ml EDT",'i'),src:"https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters%3Aquality%2890%29/https%3A/admin.vuahanghieu.com/upload/product/2022/07/nuoc-hoa-nu-gucci-bamboo-edt-75ml-62c562d4a83c4-06072022172420.jpg"},
+{match:new RegExp("Gucci Guilty 90 ml EDP",'i'),src:"https://luca.qa/cdn/shop/files/Gucci_Guility_Pour_Femme_90_ML_EDP_1000x.png?v=1771181539"},
+{match:new RegExp("Hugo Boss Femme 75 ml EDP",'i'),src:"https://cdn.salla.sa/RmjNw/wlNUMEH19hiuvvfDbCSKSWdKhjHwjuwa2SIjmDO7.png"},
+{match:new RegExp("Hugo Boss The Scent for Her 50 ml EDP",'i'),src:"https://f.fcdn.app/imgs/8b88a3/www.sanroque.com.uy/sanruy/4b01/original/catalogo/112066_112066_2/2000-2000/perfume-boss-the-scent-for-her-edp-50ml-perfume-boss-the-scent-for-her-edp-50ml.jpg"},
+{match:new RegExp("Hugo Boss Orange Woman 75 ml EDT",'i'),src:"https://www.farmavazquez.pt/68432-thickbox_default/hugo-boss-boss-orange-woman-edt-75-ml.jpg"},
+{match:new RegExp("Jean-Louis Scherrer 100 ml EDT",'i'),src:"https://www.ferwer.de/images/jean-louis-scherrer-jean-louis-scherrer-9580-1-l.webp"},
+{match:new RegExp("Jil Sander Sun Women 75 ml EDT",'i'),src:"https://www.unifree-shop.com/medias/527Wx527H-null?context=bWFzdGVyfGltYWdlc3wzNTU5MnxpbWFnZS9qcGVnfGFEUmxMMmhrWXk4eE16UTNPVGs1TnpZd016ZzNNQzgxTWpkWGVEVXlOMGhmYm5Wc2JBfGJiMzlhNjJmMjI1MGMwNDA0MTYwYzIwYjBhN2Q3YTU2ODQyNDVjZWZiYTIxOTYzNWU0OWM4OGM1YWY1MmNjMmU&v=1774997020602"},
+{match:new RegExp("Lanvin Arpège 100 ml EDP",'i'),src:"https://www.perfumenvio.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/3/3386461515619.jpg"},
+{match:new RegExp("Lolita So Sweet 50 ml EDP",'i'),src:"https://statics.promofarma.com/static/promofarma/prod/product_images/z/EEPJR8_es_ES_0.jpg"},
+{match:new RegExp("Marc Jacobs Daisy Wild Eau So Intense 100 ml EDP",'i'),src:"https://mcgorisks.ie/cdn/shop/files/139F41BC14A94E53_1_0e95a017-b49f-45b5-a423-1eb06552bfcb.jpg?v=1757594493&width=1214"},
+{match:new RegExp("Marc Jacobs Daisy Dream 100 ml EDT",'i'),src:"https://cdn11.bigcommerce.com/s-ph0qpmxksl/products/4796/images/16652/Daisy_Dream_Eau_De_Toilette_50_mL__54514.1766826799.386.513.png?c=1"},
+{match:new RegExp("Mercedes Woman Pop Edition 90 ml EDP",'i'),src:"https://rimage.ripley.cl/home.ripley/Attachment/MKP/7369/MPM10001421991/full_image-1.png"},
+{match:new RegExp("Michael Kors Wonderlust 100 ml EDP",'i'),src:"https://www.woolworths.co.za/images/elasticera/products/hero/2024-10-31/503596740_100ML_hero.jpg"},
+{match:new RegExp("Narciso Rodriguez All of Me 90 ml EDP",'i'),src:"https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/000000000494301280/_mpMER7ZST-000000000494301280_3.jpg"},
+{match:new RegExp("Nina Ricci Bella 80 ml EDT",'i'),src:"https://i5.walmartimages.com/asr/3b0590e1-cacf-49f0-a7b6-366e70a55ea3.85e6fab00df2d7af14e90a3a512b9f1f.jpeg"},
+{match:new RegExp("Nina Ricci Love in Paris 50 ml EDP",'i'),src:"https://nenchev.eu/admin/product_images/1727165204_1.jpg"},
+{match:new RegExp("Paco Rabanne Olympéa Flora 80 ml EDP intense",'i'),src:"https://fragrancecanada.ca/cdn/shop/files/OlympeaFlora.jpg?v=1710956853"},
+{match:new RegExp("Paco Rabanne Lady Million 80 ml EDP",'i'),src:"https://home.ripley.com.pe/Attachment/WOP_5/2014334697018/2014334697018_2.jpg"},
+{match:new RegExp("S by Shakira 80 ml EDT",'i'),src:"https://laboutique.flycorsair.com/images/thumbs/0000910_shakira-s-by-shakira-edt-80-ml_550.png"},
+{match:new RegExp("Viktor & Rolf Flowerbomb Ruby Orchid 100 ml EDP",'i'),src:"https://www.parfuem365.de/media/image/b9/f7/b0/3614273622639.jpg"},
+{match:new RegExp("Dolce & Gabbana Velvet Desire 100 ml EDP",'i'),src:"https://fragkart.com/cdn/shop/files/VelvetDesireEDP100ml.png?v=1764927792&width=1445"},
+{match:new RegExp("Dolce & Gabbana Velvet Rose 100 ml EDP",'i'),src:"https://alison.com.vn/file/perfume/D%20and%20G/1758613274-dg-velvet-rose-edp%20%284%29.png"},
+{match:new RegExp("Dolce & Gabbana Velvet Infusion 100 ml EDP",'i'),src:"https://www.sevil.com.tr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/g/dgip1co1c14_2.jpeg"},
+{match:new RegExp("Dolce & Gabbana Velvet Mughetto 100 ml EDP",'i'),src:"https://hrd-live.cdn.scayle.cloud/images/6a3d3ee54474077683155fdcd9142fad.jpg?bg=ffffff&brightness=1&height=1230&quality=75&width=922"},
+{match:new RegExp("Guerlain Absolus Allegoria Épices Exquises 125 ml EDP",'i'),src:"https://media.sephora.eu/content/dam/digital/pim/published/G/GUERLAIN/P10057313/99127-media_4.jpg?scaleHeight=undefined&scaleMode=undefined&scaleWidth=undefined"},
+{match:new RegExp("Mancera Eternal Wood 120 ml EDP",'i'),src:"https://cocoparfemi.com/cdn/shop/files/eternal-wood___241115_1.jpg?v=1763770177&width=1946"},
+{match:/kenzo flower 50 ml edp/i,src:'https://cdn.notinoimg.com/detail_main_hq/kenzo/3274871924469_02/flower-by-kenzo___230307.jpg'},
+{match:/hugo boss dark blue 75 ml edt/i,src:'https://cdn11.bigcommerce.com/s-2vt02okold/images/stencil/1280x1280/products/2687/9508/HBOSDB_3__78353.1777475545.jpg?c=1'},
+{match:/antonio banderas the icon 100 ml edt/i,src:'https://images.shop.frankfurt-airport.com/pim/defaults/1340x%2Cjpeg/catalog/5/b/3/5/5b358ed5b6e129627e30b9940973b78d_1473051.jpg'},
+{match:/calvin klein ck be 100 ml edt/i,src:'https://shop.r10s.jp/iromeiku-shop/cabinet/biiino/item/main-image/20230317191858_1.jpg'},
+{match:/hugo boss superman x hugo 125 ml edp/i,src:'https://images.hugoboss.com/is/image/boss/hbeu58228598_999_250?%24re_fullPageZoom%24=&align=1%2C1&bgcolor=ebebeb&fit=crop%2C1&hei=1818&lastModified=1770804942000&qlt=85&wid=1200'},
+{match:/calvin klein eternity for men aromatic essence 100 ml/i,src:'https://image.ceneostatic.pl/data/products/165106629/i-calvin-klein-eternity-for-men-aromatic-essence-woda-perfumowana-100-ml.jpg'},
+{match:/calvin klein ckin2u for him 100 ml edt/i,src:'https://fragrancelounge.com/cdn/shop/files/CKINM.webp?v=1729852501'},
+{match:/calvin klein ck one essence 100 ml parfum intense/i,src:'https://cdn.basler-beauty.de/out/pictures/generated/product/2/980_980_100/2662906-Calvin-Klein-ck-one-Essence-Parfum-Intense-100-ml.2f58f483.jpg'},
+{match:/antonio banderas the secret 100 ml edt/i,src:'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/100/MTA-183734370/antonio_banderas_the_secret_antonio_banderas_for_men_-_edt_100ml_full01_f9mdqxxt.webp'},
+{match:/carolina herrera bad boy cobalt 100 ml edp testeur$/i,src:'https://cdn.shoplightspeed.com/shops/616331/files/55697318/1600x2048x2/carolina-herrera-carolina-herrera-bad-boy-cobalt.jpg'},
+{match:/givenchy amarige 100 ml edt/i,src:'https://www.givenchybeauty.com/dw/image/v2/BBZW_PRD/on/demandware.static/-/Sites-givenchy-beauty-master/default/dw5edb993f/images/P812256/3274878122561_P812256_AMARIGE-EDT-SPRAY-100ML_2.png?sh=1500&sm=fit&sw=1200'},
+{match:/chanel n°5 75 ml edt/i,src:'https://f.fcdn.app/imgs/420d72/www.sanroque.com.uy/sanruy/f6d2/original/catalogo/140312_140312_1/460x460/perfume-chanel-n-5-edt-75ml-perfume-chanel-n-5-edt-75ml.jpg'},
+{match:/nina ricci nina fleur 80 ml edt$/i,src:'https://www.oia-parfums.fr/78122-thickbox_default/nina-fleur-eau-de-toilette-vaporisateur.jpg'},
+{match:/versace eros 200 ml edt/i,src:'https://witcdn.kaganparfumeri.com/versace-eros-for-men-erkek-parfum-edt-200-ml-edt-parfum-versace-80152-17-B.jpg'},
+{match:/burberry my burberry blush/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.45820.jpg'},
+{match:/burberry my burberry 90 ml/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.25836.jpg'},
+{match:/armani acqua di gioia/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.8442.jpg'},
+{match:/carolina herrera bad boy 100 ml parfum/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.55449.jpg'},
+{match:/coffret carolina herrera good girl/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.jpg'},
+{match:/gucci bloom acqua di fiori/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.48779.jpg'},
+{match:/prada candy l’eau/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.17640.jpg'},
+{match:/viktor & rolf flowerbomb in the sky/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.58876.jpg'},
+{match:/guess 1981 100 ml/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.43675.jpg'},
+{match:/boucheron rose d’isparta/i,src:'https://parigallery.com/cdn/shop/products/BHR121PER00017.png?v=1654004340'},
+{match:/boucheron quatre 100 ml edt/i,src:'https://ramfabeauty.com/cdn/shop/files/quatre-edp-l-boucheron-733710.jpg?v=1726724779'},
+{match:/carolina herrera chic 80 ml/i,src:'https://shop.r10s.jp/wish/cabinet/earth005/ca005_080.jpg'},
+{match:/cartier la panthère 100 ml edt/i,src:'https://cdn.spellsmell.ru/rc/182f9cec-5971-41ea-8dfe-83c313c80699.jpg'},
+{match:/dolce & gabbana devotion 100 ml edp$/i,src:'https://cdn11.bigcommerce.com/s-2vt02okold/images/stencil/1280x1280/products/4060/6482/MDOLGD__76788.1731099905.jpg?c=1'},
+{match:/escada especially delicate notes/i,src:'https://www.inzoneuae.com/public/uploads/all/Pw1yEfOf0s24mZshV9ICB5DHAQiNZPEWdc6lHaoE.png'},
+{match:/escada magnetism 75 ml/i,src:'https://cdn.riah.ae/storage/upload/images/2023/07/10/64abda5365f65.jpg'},
+{match:/givenchy very irrésistible/i,src:'https://media.marionnaud.fr/medias/sys_master/prd-images/h8d/he1/12459248058398/prd-last-103540114_2000x2000/prd-last-103540114-2000x2000.png'},
+{match:/kenzo flower 100 ml edp/i,src:'https://www.fragranceoutlet.com/cdn/shop/products/Kenzo-Flower-Womens-Eau-de-Parfume-Spray-3.4-Best-Price-Fragrance-Parfume-FragranceOutlet.com-Details.jpeg?v=1774386263'},
+{match:/lacoste pour femme 50 ml edp/i,src:'https://www.my-origines.com/dw/image/v2/BJRD_PRD/on/demandware.static/-/Sites-size-master/default/dwa0a6494d/images/51713235_S1.jpg?sh=1500&sm=fit&sw=1500'},
+{match:/flavia kiss me 100 ml/i,src:'https://images.elist.store/uploads/20210604084618-IF8LF9/HE6KE7165618.jpg'},
+{match:/flavia koral 100 ml/i,src:'https://www.myperfumeshop.com.au/cdn/shop/files/flavia-koral-for-unisex-eau-de-parfum-100ml.jpg?v=1761157894&width=1000'},
+{match:/gucci bloom intense 10 ml/i,src:'https://cdn11.bigcommerce.com/s-5cd76qe6s3/images/stencil/1280x1280/products/48702/539364/GUC249730__68762.1772431245.jpg?c=1'},
+{match:/gucci guilty 150 ml edt pour homme/i,src:'https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/2793479.jpg'},
+{match:/guerlain la petite robe noire absolu 100 ml/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/guerlain-la-petite-robe-noire-absolue_1316x1316.png?v=1732833048'},
+{match:/guerlain la petite robe noire l’eau rose/i,src:'https://i1.perfumesclub.com/grande/196446-2.jpg'},
+{match:/hugo boss deep red/i,src:'https://i.makeupstore.uz/o/oe/oehdzgnmbush.jpg'},
+{match:/hugo boss energise 75 ml/i,src:'https://www.cocolita.pl/img/imagecache/122001-123000/ce81eef330f19f4d573aae3f43374abe9999ccfd.webp'},
+{match:/hugo boss jeans 75 ml/i,src:'https://coralperfumes.in/cdn/shop/files/2_3f63dbe2-f38e-4ad2-90a6-acd19a766bbe.jpg?v=1767612373'},
+{match:/hugo boss man 125 ml/i,src:'https://resources.claroshop.com/medios-plazavip/s2/12029/1596717/5f2a39d6185aa-ce23d41d-c0c1-426d-be19-842ddfeb70f6-1600x1600.jpg'},
+{match:/hugo boss orange 75 ml edp/i,src:'https://allparfume.by/images/parfumes/hugo_boss_boss_orange_woman_eau_de_parfum.jpg'},
+{match:/hugo boss the scent for her 100 ml/i,src:'https://images.tcdn.com.br/img/img_prod/1347493/boss_the_scent_for_her_eau_de_parfum_perfume_mascu_2_20250916153653_205edec22c7d.jpeg'},
+{match:/lacoste red 125 ml/i,src:'https://www.perfumeriabasic.com/cdn/shop/files/Lacostered_2.png?v=1696891907'},
+{match:/lancaster summer splash 100 ml/i,src:'https://cdn11.bigcommerce.com/s-5cd76qe6s3/images/stencil/1280x1280/products/33043/28685/LANCASTER377536__03064.1695221819.jpg?c=1'},
+{match:/trésor midnight rose 50 ml/i,src:'https://atudutyfree.com/asset/product/1/543/LzLe2.jpg'},
+{match:/lanvin a girl in capri/i,src:'https://priceonline.mx/cdn/shop/products/72be99b3ee9ef3d644a841b2bd8d917f_original_530x%402x.jpg?v=1654643899'},
+{match:/lanvin jeanne blossom/i,src:'https://i.ebayimg.com/images/g/420AAOSwGBFmt7s~/s-l1600.jpg'},
+{match:/lanvin mon éclat d’arpège/i,src:'https://down-my.img.susercontent.com/file/my-11134207-7qul1-lj5kmcowbl8m4d'},
+{match:/mauboussin star chérie/i,src:'https://i.makeup.it/b/bu/bu6fsopctcq6.jpg'},
+{match:/michael kors sexy amber 100 ml/i,src:'https://www.perfumedirect.com/cdn/shop/files/michael-kors-women-s-perfume-michael-kors-sexy-amber-eau-de-parfum-women-s-perfume-spray-100ml-71174548816249.png'},
+{match:/montale roses musk/i,src:'https://c.cdnmp.net/117746972/p/l/3/montale-roses-musk-edp-50ml-%D0%B7%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B8~8561763.jpg'},
+{match:/montblanc legend blue 50 ml/i,src:'https://www.vmd-drogerie.cz/imgcache/d/b/p2402336-montblanc-legend-blue-parfemovana-voda-pro-muze-50-ml_560_560_550925.jpg'},
+{match:/montblanc legend red 50 ml/i,src:'https://cdn11.bigcommerce.com/s-pxmpwj/images/stencil/1280x1280/products/27661/18942420/58eb0a78-eaf4-4b53-aa38-cb987587a9dc__75409.1650671516.jpg?c=2'},
+{match:/a\*men stellar 50 ml/i,src:'https://dam.elcorteingles.es/producto/www-001013513516149-01.jpg?height=1200&impolicy=Resize&width=967'},
+{match:/maison lazaar le parfum lazaar/i,src:'https://sykz.fr/cdn/shop/files/out_4289d3ba-796f-41fe-9b8c-2967fad88bea.png?v=1775545557&width=1445'},
+{match:/narciso pure musc blanc 50 ml/i,src:'https://www.takashimaya.co.jp/sto/image/product/product_image_sub/1873/0002471873_1.jpg'},
+{match:/narciso rodriguez all of me intense 30 ml/i,src:'https://www.sobelia.com/65106-85746-thickbox/all-of-me-intense-narciso-rodriguez-eau-de-parfum-intense-spray-30ml.jpg'},
+{match:/narciso rodriguez for him bleu noir/i,src:'https://i.ebayimg.com/images/g/-v8AAOSw5MFnwbv5/s-l1200.jpg'},
+{match:/narciso rodriguez forever 50 ml/i,src:'https://catalog.cdn.bixoto.com/assets/es/B127VM58HQ/images/24f1c25b47f3/3d88084b-3423222092245_R20.jpg?class=s700'},
+{match:/narciso rodriguez radiante 90 ml/i,src:'https://down-tw.img.susercontent.com/file/tw-11134207-81ztg-me8sj15s0iyoc9'},
+{match:/nina ricci nina luna 50 ml/i,src:'https://i.notino.com/view/nina-ricci/ninlunw_aedt20_02__12.jpg'},
+{match:/nina ricci premier jour 100 ml/i,src:'https://www.fridaycharm.com/cdn/shop/files/premierjour.jpg?v=1710920282'},
+{match:/nishane hacivat 100 ml/i,src:'https://image.ceneostatic.pl/data/products/169045181/i-nishane-hacivat-ekstrakt-perfum-100ml.jpg'},
+{match:/paco rabanne one million royal 200 ml/i,src:'https://fragranceinsider.com/cdn/shop/files/02uufq5hho.png?v=1754995597&width=1600'},
+{match:/paloma picasso 100 ml edt/i,src:'https://c.cdnmp.net/117746972/p/l/7/paloma-picasso-eau-de-toilette-edt-100ml-%D0%B7%D0%B0-%D0%B6%D0%B5%D0%BD%D0%B8~36387.jpg'},
+{match:/pascal morabito sunset boulevard/i,src:'https://www.tjhughes.co.uk/cdn/shop/files/10055204_1024x.jpg?v=1762352168'},
+{match:/repetto cristal d’eau/i,src:'https://cdn2.jomashop.com/media/catalog/product/r/e/repetto-ladies-cristal-deau-edt-17-oz-fragrances-3386460128629.jpg'},
+{match:/repetto néroli solaire/i,src:'https://images.squarespace-cdn.com/content/v1/581db00b29687f6b1d68ff89/44e80408-d7dc-4dd2-910a-03d6ffb440ad/Repetto-LA%2BCOLLECTION-BOTTLE%2BAND%2BPACK-Neroli-Solaire%2Bcopie.png'},
+{match:/shaghaf for women/i,src:'https://americanas.vtexassets.com/arquivos/ids/33467630/Perfume-Feminino-Swiss-Arabian-Shaghaf-Eau-De-Parfum-Spray-75-ml.jpg?v=638862391118230000'},
+{match:/signature by sillage d’orient rose 100 ml parfum \+ 15 ml/i,src:'https://www.scentnessence.co.uk/cdn/shop/files/3.jpg?v=1740391843&width=1445'},
+{match:/the woods collection bloom/i,src:'https://belodore.rs/media/amasty/amoptmobile/catalog/product/cache/08cd9d1a69d3b81aa4ac293076519bc7/T/W/TWC63857-2-The_Woods_Collection_Natural_Bloom_100ml_EDP_1_1_jpg.webp'},
+{match:/tom ford bois marocain/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/tom-ford-bois-marocain_1596x1596.png?v=1705370416'},
+{match:/tom ford rose de chine/i,src:'https://img.pchome.com.tw/cs/items/DDAHEBA900GKF30/000001_1691633319.jpg'},
+{match:/ungaro diva 100 ml/i,src:'https://a.allegroimg.com/original/03cd1e/b953f55d4ae59e92827a18c75f73/Emanuel-Ungaro-DIVA-woda-perfumowana-100-ml-UNIKAT'},
+{match:/ungaro iii 100 ml/i,src:'https://cdn11.bigcommerce.com/s-2vt02okold/images/stencil/1280x1280/products/2937/4744/HUNG__21277.1731099888.jpg?c=1'},
+{match:/versace l’homme 100 ml edt$/i,src:'https://silkperfumes.cl/cdn/shop/products/versace-l-homme-edt-100ml-Silk-Perfumes.jpg?v=1757605447&width=1214'},
+{match:/viktor & rolf spicebomb infrared 50 ml/i,src:'https://cdn.shop-apotheke.com/images/mp/prod/3379626fa76a43e4b752224e7dd16366'}
+,{match:/charlotte tilbury pillow talk dreams/i,src:'https://inwfile.com/s-fk/jo8chv.jpg'}
+,{match:/charlotte tilbury airbrush brightening flawless finish/i,src:'https://i.ebayimg.com/images/g/Zm8AAOSwPONjFnnE/s-l1200.jpg'}
+,{match:/charlotte tilbury concealer/i,src:'https://apgmakeupsolution.com/cdn/shop/files/s2941888-av-14202601071250292160800-zoom.webp?v=1774837326&width=1445'}
+,{match:/charlotte tilbury airbrush flawless foundation/i,src:'https://images.matas.dk/encode/94148057_20250827172400.jpg'}
+,{match:/charlotte tilbury beautiful skin foundation teinte 10/i,src:'https://di2ponv0v5otw.cloudfront.net/posts/2026/02/14/6990e6c8fe4c68c207070354/m_6990e6e221bd426fc0974da1.jpg'}
+,{match:/charlotte tilbury beautiful skin foundation teinte 8/i,src:'https://media.ulta.com/i/ulta/2619495?fmt=auto&h=800&w=800'}
+,{match:/charlotte tilbury hollywood glow glide/i,src:'https://a.cdnsbn.com/images/products/xl/34569390602-1.jpg'}
+,{match:/estée lauder re-nutriv ultimate lift crème/i,src:'https://a.cdnsbn.com/images/products/xl/20712980601-1.jpg'}
+ ,{match:/lancaster sérum 365 skin repair 50 ml(?! \+ lotion)/i,src:'https://i.makeupstore.co.il/m/m9/m9k6syikayoe.jpg'}
+,{match:/olaplex n°3/i,src:'https://www.paradailybeauty.ma/cdn/shop/files/FullSizeRender_53303529-53e2-41fa-a71c-6cc06f630228.jpg?v=1775596227&width=1445'}
+,{match:/estée lauder gel-crème contour des yeux/i,src:'https://a.cdnsbn.com/images/products/xl/14693580601.jpg'}
+,{match:/lancaster huile après-soleil/i,src:'https://www.spacenk.com/on/demandware.static/-/Sites-spacenkmastercatalog/default/dw75b300dd/products/LANCASTER/UK200031068_LANCASTER_1.jpg'}
+,{match:/lancaster essence lotion/i,src:'https://cdn2.primor.eu/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/P/T/PT01_3616303470463_306d.jpeg'}
+,{match:/davidoff cool water night dive gel douche/i,src:'https://pharmacyloreto.com/image/cache/products/278424-735x735.jpg'}
+,{match:/davidoff cool water night dive lait corps/i,src:'https://fr.vesira.net/media/catalog/product/cache/8/image/650x/040ec09b1e35df139433887a97daa66f/8/4/846.jpg'}
+,{match:/déodorant armaf club de nuit intense/i,src:'https://scentsesandco.com/cdn/shop/files/7.png?crop=center&height=600&v=1762230241&width=600'}
+,{match:/brume pour le corps women’ secret/i,src:'https://static.chemistwarehouse.com.au/ams/media/pi/150244/F2D_800.jpg'}
+,{match:/brumes guess/i,src:'https://http2.mlstatic.com/D_NQ_NP_972088-MPE75950265916_052024-O.webp'}
+,{match:/blackup the hair essentials/i,src:'https://www.blackup.com/cdn/shop/files/2676.jpg?v=1736762524&width=1500'}
+,{match:/estée lauder re-nutriv teint éclat intense/i,src:'https://aboutbeautyhk.com/cdn/shop/files/20250205204903.jpg?v=1738760031&width=1500'}
+,{match:/lancaster sérum 365 skin repair 50 ml \+ lotion/i,src:'https://cdn.notinoimg.com/detail_main_mq/lancaster/3616304197659_01-o/lancaster-365-skin-repair-zestaw-upominkowy-dla-kobiet___231128.jpg'}
+,{match:/trousse bulgari/i,src:'https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/jXUAAOSwsctmPR8K/%24_12.JPG?set_id=880000500F'}
+,{match:/h titanium 75 ml/i,src:'https://pic.riemax.de/Daniel-Hechter-Titanium-Pour-Homme-75-ml-Eau-de-Toilette-EDT-Herrenduft.30108a.jpg'}
+,{match:/hugo boss woman 90 ml/i,src:'https://pic.riemax.de/B-WARE-Hugo-Boss-Woman-90-ml-Eau-de-Parfum-EDP.21286a.jpg'}
+,{match:/hugo boss xx 100 ml/i,src:'https://cazanovaonline.mx/cdn/shop/files/XX.png?v=1694563192'}
+,{match:/j\.l\. scherrer one love/i,src:'https://i.makeup.uk/k/kr/kr1jebcdqilr.jpg'}
+,{match:/jacomo aura for men/i,src:'https://static.wixstatic.com/media/94ceab_79c6c00a2d1d4f6e883b311370c84db0~mv2.jpg/v1/fill/w_750%2Ch_750%2Cal_c%2Cq_85/file.jpg'}
+,{match:/jacomo aura for women/i,src:'https://cdn.fragrancenet.com/images/photos/1600x1600/125351.jpg'}
+,{match:/jean patou voyageur 50 ml/i,src:'https://i5.walmartimages.com/seo/Jean-Patou-50-ml-Voyageur-Eau-De-Toilette-Spray-for-Men_a6ab93f7-aa87-488b-bae2-a709719a3c8b.22e89a4edf5ed6c05aaf85fdd46dcaf7.jpeg'}
+,{match:/kajal almaz/i,src:'https://beautyhouse.com/cdn/shop/files/04iqhit2kn.png?v=1728594108&width=531'}
+,{match:/kenzo flower la récolte parisienne/i,src:'https://fraguru.com/himg/o.aibHFdsiT11.jpg'}
+,{match:/courrèges homme sport/i,src:'https://www.cosmetics-co.net/24656-thickbox_default/courreges-homme-sport-edt-100-ml-spray-sin-caja.jpg'}
+ ,{match:/les princes du golfe citron macaron/i,src:'https://www.profumixluxurybrands.it/wp-content/uploads/2025/06/Citron_macaron.jpeg'}
+ ,{match:/casamorati fiore d’ulivo/i,src:'https://ramfabeauty.com/cdn/shop/files/Xerjoff-fiore-d_ulivo-casamorati-edp-perfume-400631.jpg?crop=center&height=1000&v=1776714009&width=1000'}
+ ,{match:/chopard cedar malaki/i,src:'https://media.zid.store/bfaa3454-0e90-4f91-91c7-be4cb1752ac8/121d50ed-768b-4083-a77d-0a7226f96e54.webp'}
+ ,{match:/elie saab le parfum royal/i,src:'https://i1.perfumesclub.com/grande/112900-2.jpg'}
+ ,{match:/elie saab nuit noor/i,src:'https://www.parfuem365.de/media/image/66/d9/71/3423473994558_1.jpg'}
+ ,{match:/escada sobretto rosso/i,src:'https://www.amadeus.com.py/image/cache/catalog/perfumes/33432-1024x1024.jpg'}
+ ,{match:/coffret carolina herrera cobalt 100 ml/i,src:'https://lmd.com.co/cdn/shop/files/set_de_perfumes_cobalt_de_carolina_herrera.webp?v=1730932965&width=416'}
+ ,{match:/coffret chopard black incense/i,src:'https://www.beauteluxe.in/cdn/shop/products/694410_1.jpg?v=1744095466'}
+ ,{match:/coffret chopard oud malaki/i,src:'https://www.beautyscentiments.com/cdn/shop/files/CHO-264610_1_1024x1024.jpg?v=1757489549'}
+ ,{match:/coffret dolce & gabbana dolce violet/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/dolce-violet-set-2pc_1400x1400.png?v=1764380438'}
+ ,{match:/coffret dolce & gabbana the one/i,src:'https://www.perfumeclearancecentre.com.au/cdn/shop/files/Dolce-_-Gabbana-The-One-Eau-De-Parfum-75ml-Gift-Set_grande.jpg?v=1733377995'}
+ ,{match:/coffret givenchy gentleman/i,src:'https://kosmenia.ma/cdn/shop/files/givenchy_gentleman_boise_coffret_i_2048x.jpg?v=1734812234'}
+ ,{match:/coffret givenchy l’interdit/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/givenchy-l_interdit-50ml-set---8_1200x1200.png?v=1763526758'}
+ ,{match:/coffret guerlain l’homme idéal/i,src:'https://scentbeeusa.com/cdn/shop/files/19155_jpg.webp?v=1757195475'}
+ ,{match:/coffret jaguar/i,src:'https://www.myperfumeshop.com.au/cdn/shop/files/hhhh_46720b7f-64eb-4a40-a2f7-cdeb351ef70a.png?v=1760108799&width=2048'}
+ ,{match:/coffret mauboussin à la folie/i,src:'https://kvepalusala.lt/images/products/dsRkaHH6Mkb9Up7d20241103010656.jpg'}
+ ,{match:/coffret mauboussin in black/i,src:'https://cdn11.bigcommerce.com/s-5cd76qe6s3/images/stencil/1280x1280/products/16219/14133/MAUMBMKG078__68341.1695179312.jpg?c=1'}
+ ,{match:/coffret mauboussin in red/i,src:'https://venerafragrances.com/image/cache/catalog/data/products/mauboussin-in-red-set-1-600x600.jpg'}
+ ,{match:/coffret mauboussin my twist/i,src:'https://cdn.notinoimg.com/detail_main_mq/mauboussin/3760048799102_01-o/my-twist___251215.jpg'}
+ ,{match:/coffret mauboussin pour elle elixir/i,src:'https://mauboussinparfums.com/cdn/shop/files/COFFRET-PRESTIGE-2024_ELIXIR_1000x1000_88407d2b-d937-4c8d-a556-aace7eee6e8c.png?v=1727344787&width=1024'}
+ ,{match:/coffret mauboussin star 90 ml/i,src:'https://media.s-bol.com/m4ZwvKLpVQkr/BgPRYgX/550x550.jpg'}
+ ,{match:/coffret mauboussin private club/i,src:'https://luxplus.imgix.net/content/product/image/157758-105763-1730896121.png?auto=format&dpr=1&fill=solid&fill-color=FFFFFF&fit=fillmax&h=800&w=800'}
+ ,{match:/coffret narciso all of me/i,src:'https://mrrizz.cz/cdn/shop/files/narciso-rodriguez-all-of-me-90-ml-90ml-parfemovana-voda-312.jpg?v=1767699986&width=1445'}
+ ,{match:/coffret nina ricci nina fleur/i,src:'https://epocacosmeticos.vteximg.com.br/arquivos/ids/565259-800-800/3137370359784.jpg?v=638283000630770000'}
+ ,{match:/coffret paco rabanne phantom/i,src:'https://dojiw2m9tvv09.cloudfront.net/89877/product/F_phanton-1000x9770.png?43=&t=1778727767'}
+ ,{match:/coffret ralph lauren ralph’s club/i,src:'https://dutyfreeshop.tasameng.com.tw/UploadFile/GoodPic/RLS5143401F.jpg'}
+ ,{match:/coffret rochas girl/i,src:'https://media.sephora.eu/content/dam/digital/pim/published/R/ROCHAS/664106/316087-media_swatch.jpg?scaleHeight=undefined&scaleMode=undefined&scaleWidth=undefined'}
+ ,{match:/coffret viktor & rolf flowerbomb tiger lily/i,src:'https://scentsperfumes.com.au/cdn/shop/files/2640647.avif?v=1752669160&width=1946'}
+ ,{match:/chopard jasmin moghol/i,src:'https://www.perfumenz.co.nz/cdn/shop/products/chopard-jasmin-moghol_1200x1200.png?v=1655161657'}
+ ,{match:/chopard rose seljuke/i,src:'https://www.perfumenz.co.nz/cdn/shop/products/chopard-rose-seljuke_1200x1200.png?v=1655162181'}
+ ,{match:/chopard vétiver d’haïti/i,src:'https://avvenice.com/187269-thickbox_default/chopard-vetiver-dhaiti-au-the-vert-eau-de-parfum-luxury-fragrances-100-ml.jpg'}
+ ,{match:/maison rebatchi cuir tassili/i,src:'https://www.aversi.ge/uploads/matimg/a5f218832fe889231a9b435b984f474e.jpg'}
+ ,{match:/maison rebatchi feu patchouli/i,src:'https://www.aversi.ge/uploads/matimg/d8989e27063600fa95426d8987cb34a1.jpg'}
+ ,{match:/maison rebatchi joyeux osmanthe/i,src:'https://cdn.salla.sa/OaZDd/e7b5d2b8-04ed-42ab-bbcc-e01cfbcb7694-1000x1000-ru1dL87BaTDTyzviBiMegDZkENMxN0J8EoWkC2l8.png'}
+ ,{match:/maison rebatchi rose rebatchi/i,src:'https://sonic.ge/dyn/MJfptyNAvkkFwFQiQiGGUMZ0LtEVAZZgLifN1n7i4SE/rs%3Afit%3A720%3A0/plain/images/products/original/9cb91d61-be1e-4a13-be7f-4f2347c6c0c2.png'}
+ ,{match:/maison rebatchi velvet date/i,src:'https://media-cdn.printemps.com/image/57/1/4503571.jpg?bg-color=F8F8F8&canvas=571-782&fit=bounds&height=782&width=571'}
+ ,{match:/louboutin loubicroc/i,src:'https://file.hstatic.net/1000025647/file/christian-louboutin-loubicroc-eau-de-parfum_f386150609e44ff6b4f05a69cc09597e_2048x2048.jpg'}
+ ,{match:/louboutin loubifunk/i,src:'https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/203034/476399/loobyfunk4__31747.1675408563.png?c=1&imbypass=on'}
+ ,{match:/louboutin loubikiss/i,src:'https://hrd-live.cdn.scayle.cloud/images/9440251e4fd676161dacfeee716c16a7.jpg?quality=75'}
+ ,{match:/louboutin loubiraj/i,src:'https://www.myperfumeshop.com.au/cdn/shop/products/christian-louboutin-loubiraj-edp-perfume-cologne-229517.jpg?v=1702710847&width=2008'}
+ ,{match:/collection martil 1000 excuses/i,src:'https://monflaconparfum.com/cdn/shop/files/IMG-4723.jpg?v=1772104524&width=3840'}
+ ,{match:/collection martil pulsion/i,src:'https://fragrancepassion.fr/cdn/shop/files/IMG_2368.png?v=1766410316'}
+ ,{match:/collection martil révélation/i,src:'https://maisonfam.fr/cdn/shop/files/DSC09044.jpg?v=1769451657'}
+ ,{match:/collection martil tapis rouge/i,src:'https://fragrancepassion.fr/cdn/shop/files/IMG_2369.png?v=1766410335'}
+ ,{match:/collection martil ultime/i,src:'https://fragrancepassion.uk/cdn/shop/files/IMG_2371.png?v=1766410293'}
+ ,{match:/maison fragranza boulevard haussmann/i,src:'https://static.wixstatic.com/media/9bc807_093f3d2e86ea43a9a921e000de7f4085~mv2.webp/v1/fill/w_560%2Ch_622%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/9bc807_093f3d2e86ea43a9a921e000de7f4085~mv2.webp'}
+ ,{match:/maison fragranza cœur blanc/i,src:'https://static.wixstatic.com/media/9bc807_6d815951d0634908871d779b844edb5b~mv2.webp/v1/fill/w_560%2Ch_622%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/9bc807_6d815951d0634908871d779b844edb5b~mv2.webp'}
+ ,{match:/maison fragranza rosa vento/i,src:'https://maisonfragranzaparis.fr/cdn/shop/files/4.png?v=1777218958&width=3375'}
+ ,{match:/maison fragranza fragamour/i,src:'https://maisonfragranzaparis.fr/cdn/shop/files/Beige_Vert_Minimaliste_Mojito_Cocktail_Publication_Instagram_1.png?v=1780095614&width=1080'}
+ ,{match:/maison fragranza santal gourmand/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.134219.2x.jpg'}
+ ,{match:/signature by sillage d’orient jade 100 ml edp/i,src:'https://i.ebayimg.com/images/g/DvYAAOSwv4Jc58~F/s-l1200.png'}
+ ,{match:/signature by sillage d’orient rose 100 ml edp/i,src:'https://www.scentnessence.co.uk/cdn/shop/files/3.jpg?v=1740391843&width=1445'}
+ ,{match:/mancera aoud black candy 60 ml/i,src:'https://cdn.sharafdg.com/cdn-cgi/image/width%3D600%2Cheight%3D600%2Cfit%3Dpad%2Cformat%3Dwebp%2Cquality%3D70/assets/3/6/0/7/3607418130680d6046da0163053d58cb0ae19b77_18.jpg'}
+ ,{match:/mancera instant crush/i,src:'https://cdn.atacadoconnect.com/produtos/1371932/perfume-mancera-instant-crush-eau-de-parfum-unissex-120ml-1371932-c9jt8.webp'}
+ ,{match:/mancera coco vanille/i,src:'https://yauras.cl/cdn/shop/files/Diseno-sin-titulo-2023-02-10T132648.325.png?v=1724448474'}
+ ,{match:/mancera rose vanille/i,src:'https://rimage.ripley.com.pe/home.ripley/Attachment/MKP/4711/PMP20001664648/full_image-1.jpeg'}
+ ,{match:/mancera amber rose/i,src:'https://www.maxaroma.com/productimages/large/UP3760265190010.jpg?ver=1653510606'}
+ ,{match:/mancera aoud black candy 120 ml/i,src:'https://fragrancecanada.ca/cdn/shop/products/Mancera_Aoud_Black_Candy_120ML_EDP_Spray_W_M.jpg?v=1727313030'}
+ ,{match:/mancera gold intensive aoud 60 ml/i,src:'https://essenza-nobile.de/media/image/product/241692/lg/mancera-gold-intensive-aoud.jpg'}
+ ,{match:/mancera musc of flowers/i,src:'https://cdn2.jomashop.com/media/catalog/product/cache/0ee3019724ce73007b606b54ba535a23/m/a/mancera-ladies-musk-of-flowers-edp-21-oz-fragrances-3760265190737.jpg?height=546&width=546'}
+ ,{match:/mancera of the wild/i,src:'https://scentoria.co.in/cdn/shop/files/Of_The_Wild_120_ML_EDP_Retail.webp?v=1715756307'}
+ ,{match:/mancera pink rose/i,src:'https://www.myperfumeshop.com.au/cdn/shop/products/mancera-pink-roses-edp-perfume-cologne-371328.png?v=1703095089&width=763'}
+ ,{match:/mancera roseaoud & musc/i,src:'https://essenza-nobile.de/media/image/product/339739/lg/mancera-paris-roseaoud-and-musc.jpg'}
+ ,{match:/mancera tonka cola/i,src:'https://cdn.idealo.com/folder/Product/202287/2/202287213/s1_produktbild_max_5/mancera-tonka-cola-eau-de-parfum-120ml.jpg'}
+ ,{match:/mancera velvet vanilla/i,src:'https://myoriginal.com.ua/img/product/55236.jpg'}
+ ,{match:/mancera wave musc/i,src:'https://www.maxaroma.com/productimages/large/UP3760265191130.jpg?ver=1698633820'}
+ ,{match:/mancera wild leather/i,src:'https://www.beautyglobe.co.uk/cdn/shop/files/10046118.jpg?v=1733708241'}
+ ,{match:/mancera wild python/i,src:'https://cdn.spellsmell.ru/rc/347ccf3e-fd05-447b-b40d-ae423a1e3f71.webp'}
+ ,{match:/montana parfum de peau/i,src:'https://media.cdn.kaufland.de/product-images/1024x1024/097fedb6ec706b11ab98f568acbe77ff.jpg'}
+ ,{match:/zadig & voltaire zadig 90 ml/i,src:'https://cdn.spellsmell.ru/rc/2996396f-8c9b-4d2a-9367-0ad03287a05b.jpg'}
+ ,{match:/les princes du golfe mediterranée/i,src:'https://cdn.salla.sa/ePBxXd/9bf746c2-842e-40d2-aeeb-06fecfce4d3f-674.89711934156x1000-j0mpuye5U9xS8nzGsOWh9K29deQwYqUXg8aCqGsL.png'}
+ ,{match:/givenchy pour homme blue label/i,src:'https://perfumeriasublime.com/cdn/shop/files/HGIVBL_83313f22-f61e-4733-a1cf-5212dfb66be7.jpg?v=1772039540'}
+ ,{match:/gucci guilty absolute 150 ml edp pour homme/i,src:'https://faktoriaperfum.pl/1719-large_default/gucci-guilty-absolute.jpg'}
+ ,{match:/gucci guilty 150 ml edt pour homme/i,src:'https://resources.claroshop.com/imagenes-sanborns-ii/1200/737052924922.jpg'}
+ ,{match:/ysl kouros 100 ml/i,src:'https://coralperfumes.in/cdn/shop/files/YSLKourosEDTforMen-100ml_2.jpg?v=1773143417&width=1200'}
+ ,{match:/hugo boss the scent for her private accord/i,src:'https://media.s-bol.com/l8X4DEL1NqYg/jZ4V1lR/1198x1200.jpg'}
+ ,{match:/hugo boss the scent for her pure accord/i,src:'https://cdn.dsmcdn.com/ty1386/product/media/images/prod/QC/20240628/11/d9d052e2-fe66-3a62-86a2-506607e695e9/1_org_zoom.jpg'}
+ ,{match:/lacoste l\.12\.12 pour elle french panache/i,src:'https://fimgs.net/mdimg/secundar/o.61527.jpg'}
+ ,{match:/lacoste pour femme légère/i,src:'https://img.vivantiscdn.net/photos/-/p/_orig/LA/lacoste-lacoste-pour-femme-legere-edp_14439225063406.png'}
+ ,{match:/chloé signature rose naturelle intense 150 ml edp recharge/i,src:'https://www.perfumenz.co.nz/cdn/shop/files/chloe-rose-naturelle-intense_1400x1400.png?v=1696798671'}
+ ,{match:/juliette has a gun lady vengeance/i,src:'https://www.glowempire.co.uk/cdn/shop/files/10052079.jpg?v=1766586012&width=1080'}
+ ,{match:/lancôme magnolia rosae/i,src:'https://fandi-perfume.com/cdn/shop/files/lancome-magnolia-rosae-women-s-perfume-cologne-for-women-eau-de-parfum-3-4-oz-edp-1217981157.jpg?v=1769298395&width=982'}
+ ,{match:/lancôme collection absolue le parfum musk & white tea/i,src:'https://media.karousell.com/media/photos/products/2025/2/21/original_authentic_ready_stock_1740149811_4c41fd05.jpg'}
+ ,{match:/les princes du golfe exquidite pear/i,src:'https://odorare.fr/5020-medium_default/exquisite-pear.jpg'}
+ ,{match:/signature by sillage d’orient jade 100 ml parfum \+ 15 ml/i,src:'https://cloud.cazaar.co.uk/signature-sillage-dorient-jade-eau-de-parfum-100ml-edp-15ml-gift-set-fragrance.jpg'}
+ ,{match:/charriol collection privée infinite celtic/i,src:'https://www.gazzaz.com.sa/cdn/shop/files/123750122100-1.jpg?v=1731304162&width=1500'}
+ ,{match:/lanvin oxygène 100 ml/i,src:'https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/3139093021429_1.jpg'}
+ ,{match:/eyeliner givenchy feutre précision/i,src:'https://img.vivantiscdn.net/photos/w600_h600_fN/k/_orig/DK/liner-disturbia_14906456045111.jpg'}
+ ,{match:/calvin klein obsession night 125 ml/i,src:'https://www.fridaycharm.com/cdn/shop/products/PjMCpf.jpg?v=1555674534&width=1080'}
+ ,{match:/montblanc individuel tonic 75 ml/i,src:'https://rackhams.com/image/large/79f45b89-a519-4c3a-a960-f87fa9bf8252.jpg'}
+ ,{match:/coffret rp paris/i,src:'https://rpparfums.fr/cdn/shop/files/coffret_3_parfums_val_2.jpg?v=1770192786&width=800'}
+ ,{match:/gel douche rp paris/i,src:'https://rpparfums.fr/cdn/shop/files/RP_Collection-gel-mousse.png?v=1725311911&width=1496'}
+ ,{match:/coffret sélection privée n°2/i,src:'https://mondeduparfum.fr/cdn/shop/files/coffretprive2-2.png?v=1719422657'}
+ ,{match:/balmain extatic 90 ml edt/i,src:'https://i.ebayimg.com/images/g/a40AAOSwx2plaUXM/s-l1200.jpg'}
+ ,{match:/hermès tutti twilly d’hermès/i,src:'https://www.perfumedirect.com/cdn/shop/files/hermes-women-s-perfume-hermes-tutti-twilly-d-hermes-eau-de-parfum-women-s-perfume-spray-50ml-39693609435295.png?v=1717594126&width=1445'}
+ ,{match:/gel douche alfa romeo 400 ml/i,src:'https://www.riemax.de/pic/Alfa-Romeo-Red-400-ml-Hair-Body-Showergel-Duschgel-Shampoo-Shower-Gel.29504a.jpg'}
+ ,{match:/lolita lempicka la pomme 100 ml/i,src:'https://www.eliteperfumes.cl/cdn/shop/products/lolita-lempicka-lolita-lempicka-original-edp-100-ml-m-15142689865764.jpg?v=1627389399&width=1920'}
+ ,{match:/girl happens gold dust/i,src:'https://onivo-cosmetics.shop/cdn/shop/files/68_97f88ea0-e9e7-4105-9a63-fe93ee71f066_3375x.png?v=1743500684'}
+ ,{match:/gel douche calvin klein defy/i,src:'https://www.secretsales.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto/https%3A/media.secretsales.com/catalog/product/9/0/9050d082a4d94198aafe7c5781e4aaad.jpg'}
+ ,{match:/mancera pearl 120 ml/i,src:'https://fimgs.net/mdimg/perfume-thumbs/375x500.40954.jpg'}
+ ,{match:/gel douche mexx 50 ml/i,src:'https://media.s-bol.com/81BPoBjA6pvo/550x624.jpg'}
+ ,{match:/mascara noir nocibé/i,src:'https://media.nocibe.fr/medias/BWro8t1096718-0-ncb-FR.jpg?context=bWFzdGVyfGltYWdlc3w5MDkyMnxpbWFnZS9qcGVnfGFHSmpMMmczWlM4ME5qWTFOVEV5TXpBMk1qZ3hOQzlDVjNKdk9IUXhNRGsyTnpFNFh6QmZibU5pTFVaU0xtcHdad3wwNTc3M2U5ZTY1ZjU4MWFjZWMzODM0NmZhZGMzMDUzMzdkYjZlNzI4MzczMDE3YWZjMTU3M2QxZDE5ZTQzNzFk&grid=true&imPolicy=grayScaled'}
+];
+function csvRows(text){const rows=[];let row=[],cell='',quoted=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){cell+='"';i++}else if(c==='"'){quoted=!quoted}else if(c===','&&!quoted){row.push(cell);cell=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(cell);if(row.some(x=>x.trim()))rows.push(row);row=[];cell=''}else cell+=c}row.push(cell);if(row.some(x=>x.trim()))rows.push(row);return rows}
+function parseCsv(text){const rows=csvRows(text);if(rows.length<2)return[];const headers=rows.shift().map(x=>x.trim().toLocaleLowerCase('fr'));const col=(...names)=>headers.findIndex(h=>names.includes(h));const ix={brand:col('marque','brand'),name:col('parfum','nom','produit','name'),size:col('contenance','volume','format'),price:col('prix','price'),available:col('disponible','disponibilité','disponibilite','stock'),category:col('catégorie','categorie','category')};if(ix.name<0||ix.price<0)throw Error('Colonnes obligatoires manquantes : parfum et prix.');return rows.map(r=>({brand:r[ix.brand]||'',name:r[ix.name]||'',size:r[ix.size]||'',price:r[ix.price]||'',available:ix.available<0?true:!/^(non|false|0|indisponible|épuisé|epuise)$/i.test((r[ix.available]||'').trim()),category:r[ix.category]||'Autres'})).filter(p=>p.name)}
+function photoFor(name){const spaced=String(name).replace(/(\d)\s*(ml)\b/gi,'$1 ml');let hit=photos.find(x=>x.match.test(spaced));if(hit)return hit;const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’‘']/g,' ').replace(/[^a-z0-9]+/g,' ').trim();const words=new Set(normalize(spaced).split(/\s+/));const skip=new Set(['ml','the','for','and','de','du','des','a','d','l','pour','sur','la','le','les']);return photos.find(x=>{const key=(normalize(x.match.source).match(/[a-z0-9]+/g)||[]).filter(w=>w&&!skip.has(w));if(key.length<4)return false;const unique=[...new Set(key)];const found=unique.filter(w=>words.has(w)).length;return found/unique.length>=0.9;})}
+function render(){const q=search.value.trim().toLocaleLowerCase('fr'),a=availability.value;refreshDubaiBrands();const list=products.filter(p=>(!q||`${p.name} ${p.brand} ${p.size} ${p.inspi||''}`.toLocaleLowerCase('fr').includes(q))&&collectionMatches(p)&&(collection!=='classics'||classicCategory==='all'||p.category===classicCategory)&&(collection!=='dubai'||dubaiBrand.value==='all'||dubaiBrandName(p)===dubaiBrand.value)&&(a==='all'||(a==='available'?p.available:!p.available))).sort((x,y)=>['Parfums classiques','Parfums RP','Parfums de Dubaï','Cosmétiques','Soins capillaires'].indexOf(catalogGroup(x))-['Parfums classiques','Parfums RP','Parfums de Dubaï','Cosmétiques','Soins capillaires'].indexOf(catalogGroup(y))||x.name.localeCompare(y.name,'fr',{sensitivity:'base',numeric:true}));count.innerHTML=`${list.length} produit${list.length>1?'s':''} <span style="opacity:.45;margin:0 5px">·</span> <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1.5px;display:inline-block;margin:0 3px 0 2px;opacity:.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Mis à jour le 2 novembre 2026`;grid.innerHTML='';if(!list.length){const box=document.createElement('div');box.className='empty';box.innerHTML=products.length?'<strong>Aucun résultat</strong>Essaie une autre recherche ou un autre filtre.':'<strong>Catalogue en préparation</strong>La liste sera affichée ici dès que la source de données sera raccordée.';grid.append(box);return}let lastGroup='';for(const p of list){const groupName=catalogGroup(p);if(collection==='all'&&groupName!==lastGroup){const heading=document.createElement('h2');heading.className='group-heading';heading.textContent=groupName;grid.append(heading);lastGroup=groupName}const card=document.createElement('article');card.className='card';const visual=document.createElement('div');visual.className='visual';const photo=photoFor(p.name);if(photo){const img=document.createElement('img');img.src=photo.src;img.alt=`Image de ${p.name}`;img.loading='lazy';img.onerror=()=>{img.remove();const fallback=document.createElement('div');fallback.className='generic-bottle';fallback.setAttribute('aria-hidden','true');visual.prepend(fallback)};visual.append(img)}else visual.innerHTML='<div class="generic-bottle" aria-hidden="true"></div>';if(/testeur/i.test(p.name)){const pack=document.createElement('span');pack.className='tester-pack';pack.textContent='TESTEUR';visual.append(pack)}const brand=document.createElement('div');brand.className='brand';brand.textContent=p.brand||p.category||'';const name=document.createElement('div');name.className='name';name.textContent=p.name;const size=document.createElement('div');size.className='size';size.textContent=p.size;let inspiEl=null;if(p.inspi){inspiEl=document.createElement('div');inspiEl.className='inspi';inspiEl.innerHTML=`<strong>Inspiration :</strong> ${p.inspi}`;}const bottom=document.createElement('div');bottom.className='bottom';const price=document.createElement('div');price.className='price';price.textContent=/^\d+(?:[,.]\d+)?$/.test(String(p.price).trim())?`${p.price} €`:p.price;const badge=document.createElement('span');badge.className='badge'+(p.available?'':' out');badge.textContent=p.available?'Disponible':'Rupture';bottom.append(price,badge);const orderControl=document.createElement('div');const chosen=cart.get(cartKey(p));if(!p.available){const add=document.createElement('button');add.className='order-add out';add.type='button';add.disabled=true;add.textContent='Rupture de stock';orderControl.append(add)}else if(chosen){orderControl.className='order-qty';const minus=document.createElement('button');minus.type='button';minus.textContent='−';minus.setAttribute('aria-label','Retirer une unité');minus.onclick=()=>changeCart(cartKey(p),-1);const quantity=document.createElement('span');quantity.textContent=`${chosen.qty} dans la sélection`;const plus=document.createElement('button');plus.type='button';plus.textContent='+';plus.setAttribute('aria-label','Ajouter une unité');plus.onclick=()=>addToCart(p);orderControl.append(minus,quantity,plus)}else{const add=document.createElement('button');add.className='order-add';add.type='button';add.textContent=hasFixedPrice(p.price)?'Ajouter à ma commande':'Demander le prix';add.onclick=()=>addToCart(p);orderControl.append(add)}card.append(visual,brand,name,size,...(inspiEl?[inspiEl]:[]),bottom,orderControl);grid.append(card)}}
+search.addEventListener('input',render);dubaiBrand.addEventListener('change',render);availability.addEventListener('change',render);
+const source=new URLSearchParams(location.search).get('source');
+async function loadData(){if(!source){render();return}try{const response=await fetch(source,{cache:'no-store'});if(!response.ok)throw Error('La source de données est inaccessible.');products=parseCsv(await response.text());render()}catch(e){grid.innerHTML='';const box=document.createElement('div');box.className='empty error';box.textContent=`Impossible de charger le catalogue : ${e.message}`;grid.append(box)}}
+loadData();updateCart();if(source)setInterval(loadData,30000);
+</script>
+
+<!-- MODALE EXPÉDITION & SUIVI (STYLE LUXE VECTORIEL) -->
+<div id="shippingModal" class="order-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="shippingModalTitle">
+  <div class="order-sheet shipping-modal-sheet">
+    <div class="order-head">
+      <div>
+        <div class="eyebrow" style="color:var(--gold);font-weight:700;font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:4px">Informations Expédition</div>
+        <h2 id="shippingModalTitle">Envoi France &amp; Europe</h2>
+        <p style="color:var(--muted);margin:0 0 16px;font-size:14px">Toutes les informations sur la livraison et le suivi de vos parfums.</p>
+      </div>
+      <button id="closeShippingModal" class="order-close" type="button" aria-label="Fermer la fenêtre">×</button>
+    </div>
+    
+    <div class="shipping-details-grid">
+      <!-- 1. Suivi -->
+      <div class="shipping-feature-card">
+        <div class="shipping-feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+        <div>
+          <strong>Numéro de suivi en temps réel</strong>
+          <p>Dès le dépôt de votre colis, vous recevez directement le lien et votre <strong>numéro de suivi sur WhatsApp</strong> pour suivre l'acheminement étape par étape.</p>
+        </div>
+      </div>
+
+      <!-- 2. Expédition -->
+      <div class="shipping-feature-card">
+        <div class="shipping-feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+        </div>
+        <div>
+          <strong>Expédition express 24h / 48h</strong>
+          <p>Préparation rapide et soignée de votre commande dès validation de votre commande pour un départ immédiat.</p>
+        </div>
+      </div>
+
+      <!-- 3. Destinations -->
+      <div class="shipping-feature-card">
+        <div class="shipping-feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </div>
+        <div>
+          <strong>France métropolitaine &amp; Toute l’Europe</strong>
+          <p>Livraison à domicile ou en point relais en France ainsi qu'en Belgique, Suisse, Luxembourg, Espagne, Italie et partout en Europe.</p>
+        </div>
+      </div>
+
+      <!-- 4. Emballage soigné (simplifié) -->
+      <div class="shipping-feature-card">
+        <div class="shipping-feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 12 20 22 4 22 4 12"/>
+            <rect x="2" y="7" width="20" height="5"/>
+            <line x1="12" y1="22" x2="12" y2="7"/>
+            <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/>
+            <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
+          </svg>
+        </div>
+        <div>
+          <strong>Emballage soigné</strong>
+          <p>Chaque flacon est emballé avec soin et délicatesse pour arriver en parfait état chez vous.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="shipping-modal-footer">
+      <button type="button" id="btnOkShipping">J'ai compris • Découvrir les parfums</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.querySelector('#shippingModal');
+  const closeBtn = document.querySelector('#closeShippingModal');
+  const okBtn = document.querySelector('#btnOkShipping');
+  const btnBadge = document.querySelector('#btnOpenShippingBadge');
+
+  function openShipping() {
+    if (modal) {
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function closeShipping() {
+    if (modal) {
+      modal.hidden = true;
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (btnBadge) btnBadge.addEventListener('click', openShipping);
+  if (closeBtn) closeBtn.addEventListener('click', closeShipping);
+  if (okBtn) okBtn.addEventListener('click', closeShipping);
+
+  if (modal) {
+    modal.addEventListener('click', e => {
+      if (e.target === modal) closeShipping();
+    });
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && modal && !modal.hidden) {
+      closeShipping();
+    }
+  });
+});
+</script>
+</body>
+</html>
+
+
+
